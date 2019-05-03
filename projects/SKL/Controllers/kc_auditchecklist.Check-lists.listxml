@@ -1,0 +1,33 @@
+﻿<EntityList>
+  <Attributes>
+    <EntityName>kc_auditchecklist</EntityName>
+    <CamelCase>kc_auditchecklist</CamelCase>
+  </Attributes>
+  <Name>Check-lists</Name>
+  <Kind>AssociatedList</Kind>
+  <AutoWideWidth>0</AutoWideWidth>
+  <OrderBy>kc_name</OrderBy>
+  <SerializedBindings>
+    <string>createdon</string>
+    <string>kc_name</string>
+    <string>kc_auditchecklistid</string>
+  </SerializedBindings>
+  <MaxColumns>0</MaxColumns>
+  <SerializedTemplates>
+    <RowTemplate>
+      <DesignWidth>320</DesignWidth>
+      <DesignHeight>48</DesignHeight>
+      <Name>Default</Name>
+      <Width>320</Width>
+      <Height>48</Height>
+      <SerializedChildren>
+        <CellTemplate SchemaName="createdon">
+          <StyleName>primary</StyleName>
+          <Bounds>8,10,302,28</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+      </SerializedChildren>
+    </RowTemplate>
+  </SerializedTemplates>
+</EntityList>

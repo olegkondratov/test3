@@ -1,0 +1,23 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>kc_auditchecklist</EntityName>
+  <CamelCase>kc_auditchecklist</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>Сводка</Name>
+      <SerializedChildren>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="kc_accountid"/>
+        <DetailItem SchemaName="kc_storeid"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Строки чек-листа аудита List</Name>
+      <Binding SchemaName="kc_auditchecklistdetail.kc_auditchecklistid"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>
