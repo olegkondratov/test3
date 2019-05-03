@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>Опросы</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="initial-scale=1, user-scalable=no" />
+	<script src="JSBridge.js"></script>
+	<link rel='stylesheet' href='normalize.min.css'>
+	<link rel='stylesheet' href='pollStyles.css'>
+</head>
+<body>
+	<div class="container">
+		<form id="form1">
+			<div class="row">
+				<h4>Выберете опрос</h4>
+				<div class="input-group">
+					<select id="template">
+					</select>
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-group">
+					<input class="button" type="button" value="Выбрать" onclick="select_questionnaire_template()">
+				</div>
+			</div>
+		</form>
+		<form id="form2" style="display: none">
+		</form>
+	</div>
+	<script src="pollScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿<HubDefinition>
+  <Group name="Sales">
+    <View name="Open Sales">
+      <EntityView entity="quote" view="OpenNow" sort="name"/>
+    </View>
+    <View name="All Sales">
+      <EntityView entity="quote" view="Now" sort="name"/>
+    </View>
+  </Group>
+  <Group name="quote">
+    <View name="Open Quotes">
+      <EntityView entity="quote" view="OpenNow" sort="name"/>
+    </View>
+    <View name="All Quotes">
+      <EntityView entity="quote" view="Now" sort="name"/>
+    </View>
+  </Group>
+  <Item entity="quote" property="null" parent="true">
+    <Item entity="account" view="Now2" property="customerid" parent="true">
+      <Item entity="contact" view="Now2" property="parentcustomerid" parent="false"/>
+    </Item>
+    <Item entity="contact" view="Now2" property="customerid" parent="true"/>
+    <Item entity="activity" view="Now2" property="regardingobjectid" parent="false"/>
+  </Item>
+</HubDefinition>

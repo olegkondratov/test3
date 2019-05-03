@@ -1,0 +1,22 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>kc_store</EntityName>
+  <CamelCase>kc_store</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <ClassBinding/>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab" flexiHeader="2">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="kc_datelastvisit"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab" flexiHeight="0" flexiHeader="2" flexiOrientation="1" DocCommands="0" FlipMode="224" ListCommands="132">
+      <Name>Ассортимент</Name>
+      <CustomName>Ассортимент</CustomName>
+      <Binding SchemaName="kc_assortmentdetail.kc_storeid"/>
+      <Views>&lt;extra&gt;&lt;views&gt;kc_assortmentdetail.Строки ассортимента&lt;/views&gt;&lt;filter entity="kc_assortmentdetail"&gt;&amp;lt;fetch version="1.0"&amp;gt;&amp;lt;entity name="kc_assortmentdetail"&amp;gt;&amp;lt;filter type="and"&amp;gt;&amp;lt;condition attribute="kc_storeid" operator="eq" value="{{kc_storeid}}"/&amp;gt;&amp;lt;condition attribute="kc_brandnameid" operator="null"/&amp;gt;&amp;lt;condition attribute="kc_productcategoryid" operator="not-null"/&amp;gt;&amp;lt;/filter&amp;gt;&amp;lt;/entity&amp;gt;&amp;lt;/fetch&amp;gt;&lt;/filter&gt;&lt;/extra&gt;</Views>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

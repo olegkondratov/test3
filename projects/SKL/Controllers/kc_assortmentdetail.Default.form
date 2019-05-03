@@ -1,0 +1,72 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>kc_assortmentdetail</EntityName>
+  <CamelCase>kc_assortmentdetail</CamelCase>
+  <WorkflowLoad>&lt;?xml version="1.0" ?&gt;&lt;Workflow e="true" isvalid="true" syntaxVersion="11" version="0"&gt;&lt;branch e="false" info="Set caption for form" &gt;&lt;if e="true"&gt;&lt;conditions e="true" op="And"&gt;&lt;condition e="false"&gt;&lt;var&gt;Entity.kc_productcategoryid&lt;/var&gt;&lt;op&gt;ContainsData&lt;/op&gt;&lt;/condition&gt;&lt;/conditions&gt;&lt;action&gt;&lt;function e="false"&gt;&lt;var&gt;Caption&lt;/var&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;arg&gt;var:Entity.kc_productcategoryid&lt;/arg&gt;&lt;/function&gt;&lt;/action&gt;&lt;/if&gt;&lt;/branch&gt;&lt;branch e="false" info="Show/hide kc_storeid" &gt;&lt;if e="true"&gt;&lt;conditions e="true" op="And"&gt;&lt;condition e="false"&gt;&lt;var&gt;Entity.kc_storeid&lt;/var&gt;&lt;op&gt;DoesNotContainData&lt;/op&gt;&lt;/condition&gt;&lt;/conditions&gt;&lt;action&gt;&lt;function e="false"&gt;&lt;var&gt;Form.kc_storeid.IsVisible&lt;/var&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;arg&gt;Boolean:False&lt;/arg&gt;&lt;/function&gt;&lt;/action&gt;&lt;/if&gt;&lt;/branch&gt;&lt;branch e="true" info="Show/hide tabs" &gt;&lt;if e="true"&gt;&lt;conditions e="true" op="And"&gt;&lt;condition e="false"&gt;&lt;var&gt;Entity.kc_accountid&lt;/var&gt;&lt;op&gt;ContainsData&lt;/op&gt;&lt;/condition&gt;&lt;condition e="false"&gt;&lt;var&gt;Entity.kc_storeid&lt;/var&gt;&lt;op&gt;DoesNotContainData&lt;/op&gt;&lt;/condition&gt;&lt;/conditions&gt;&lt;action&gt;&lt;function e="false"&gt;&lt;var&gt;Tabs.по бренду:.IsVisible&lt;/var&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;arg&gt;Boolean:True&lt;/arg&gt;&lt;/function&gt;&lt;function e="false"&gt;&lt;var&gt;Tabs.конкуренты в ТТ:.IsVisible&lt;/var&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;arg&gt;Boolean:False&lt;/arg&gt;&lt;/function&gt;&lt;function e="false"&gt;&lt;var&gt;Tabs.по бренду в ТТ:.IsVisible&lt;/var&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;arg&gt;Boolean:False&lt;/arg&gt;&lt;/function&gt;&lt;/action&gt;&lt;/if&gt;&lt;if e="true"&gt;&lt;conditions e="true" op="And"&gt;&lt;condition e="false"&gt;&lt;var&gt;Entity.kc_accountid&lt;/var&gt;&lt;op&gt;ContainsData&lt;/op&gt;&lt;/condition&gt;&lt;condition e="false"&gt;&lt;var&gt;Entity.kc_storeid&lt;/var&gt;&lt;op&gt;ContainsData&lt;/op&gt;&lt;/condition&gt;&lt;/conditions&gt;&lt;action&gt;&lt;function e="false"&gt;&lt;var&gt;Tabs.по бренду:.IsVisible&lt;/var&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;arg&gt;Boolean:False&lt;/arg&gt;&lt;/function&gt;&lt;function e="false"&gt;&lt;var&gt;Tabs.конкуренты в ТТ:.IsVisible&lt;/var&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;arg&gt;Boolean:True&lt;/arg&gt;&lt;/function&gt;&lt;function e="false"&gt;&lt;var&gt;Tabs.по бренду в ТТ:.IsVisible&lt;/var&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;arg&gt;Boolean:True&lt;/arg&gt;&lt;/function&gt;&lt;/action&gt;&lt;/if&gt;&lt;/branch&gt;&lt;/Workflow&gt;</WorkflowLoad>
+  <SharedVariables>&lt;SharedVariables&gt;&lt;Variables&gt;&lt;/Variables&gt;&lt;/SharedVariables&gt;</SharedVariables>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <SharedVariableNames/>
+  <ClassBinding/>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab" flexiHeader="0">
+      <Name>Сводка</Name>
+      <SerializedChildren>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="kc_accountid"/>
+        <DetailItem SchemaName="kc_storeid"/>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="kc_sellinskl" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_potentialsellin" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_sellout" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_selloutskl" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_plansellout" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_planselloutskl" Style="NormalTop"/>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="kc_quantitysku" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_quantityskusklaudit" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_quantityskusklmatrix" Style="NormalTop"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="DetailTab" flexiHeader="0">
+      <Name>Доля</Name>
+      <SerializedChildren>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="kc_shareofsalesskl" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_shareofshelfaudit" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_shareofshelf" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_kep" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_planshareskl" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_potencialshareskl" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_potencialsharesklnormal" Style="NormalTop"/>
+        <DetailItem SchemaName="kc_margin" Style="NormalTop"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab" flexi="0" flexiHeight="3" flexiHeader="2" flexiOrientation="1" DocCommands="0" FlipMode="224" ListCommands="132">
+      <Name>по бренду:</Name>
+      <CustomName>по бренду:</CustomName>
+      <Binding SchemaName="kc_assortmentdetail.@virtual"/>
+      <Views>&lt;extra&gt;&lt;views&gt;kc_assortmentdetail.Строки ассортимента по бренду&lt;/views&gt;&lt;filter entity="kc_assortmentdetail"&gt;&amp;lt;fetch version="1.0"&amp;gt;&amp;lt;entity name="kc_assortmentdetail"&amp;gt;&amp;lt;filter type="and"&amp;gt;&amp;lt;condition attribute="kc_accountid" operator="eq" value="{{kc_accountid}}"/&amp;gt;&amp;lt;condition attribute="kc_brandnameid" operator="not-null"/&amp;gt;&amp;lt;condition attribute="kc_productcategoryid" operator="eq" value="{{kc_productcategoryid}}"/&amp;gt;&amp;lt;condition attribute="kc_storeid" operator="null"/&amp;gt;&amp;lt;condition attribute="kc_isinstock" operator="eq" value="1"/&amp;gt;&amp;lt;/filter&amp;gt;&amp;lt;/entity&amp;gt;&amp;lt;/fetch&amp;gt;&lt;/filter&gt;&lt;/extra&gt;</Views>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab" flexi="0" flexiHeight="3" flexiHeader="2" flexiOrientation="1" DocCommands="0" FlipMode="224" ListCommands="132">
+      <Name>по бренду в ТТ:</Name>
+      <CustomName>по бренду в ТТ:</CustomName>
+      <Binding SchemaName="kc_assortmentdetail.@virtual"/>
+      <Views>&lt;extra&gt;&lt;views&gt;kc_assortmentdetail.Строки ассортимента по бренду&lt;/views&gt;&lt;filter entity="kc_assortmentdetail"&gt;&amp;lt;fetch version="1.0"&amp;gt;&amp;lt;entity name="kc_assortmentdetail"&amp;gt;&amp;lt;filter type="and"&amp;gt;&amp;lt;condition attribute="kc_accountid" operator="eq" value="{{kc_accountid}}"/&amp;gt;&amp;lt;condition attribute="kc_brandnameid" operator="not-null"/&amp;gt;&amp;lt;condition attribute="kc_productcategoryid" operator="eq" value="{{kc_productcategoryid}}"/&amp;gt;&amp;lt;condition attribute="kc_storeid" operator="eq" value="{{kc_storeid}}"/&amp;gt;&amp;lt;condition attribute="kc_isinstock" operator="eq" value="1"/&amp;gt;&amp;lt;/filter&amp;gt;&amp;lt;/entity&amp;gt;&amp;lt;/fetch&amp;gt;&lt;/filter&gt;&lt;/extra&gt;</Views>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab" flexiHeight="0" flexiHeader="2" flexiOrientation="1" DocCommands="0" FlipMode="224" ListCommands="132">
+      <Name>конкуренты в ТТ:</Name>
+      <CustomName>конкуренты в ТТ:</CustomName>
+      <Binding SchemaName="kc_competitorinstore.@virtual"/>
+      <Views>&lt;extra&gt;&lt;filter entity="kc_competitorinstore"&gt;&amp;lt;fetch version="1.0"&amp;gt;&amp;lt;entity name="kc_competitorinstore"&amp;gt;&amp;lt;filter type="and"&amp;gt;&amp;lt;condition attribute="kc_storeid" operator="eq" value="{{kc_storeid}}"/&amp;gt;&amp;lt;condition attribute="kc_productcategoryid" operator="eq" value="{{kc_productcategoryid}}"/&amp;gt;&amp;lt;/filter&amp;gt;&amp;lt;/entity&amp;gt;&amp;lt;/fetch&amp;gt;&lt;/filter&gt;&lt;/extra&gt;</Views>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

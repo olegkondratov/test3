@@ -1,0 +1,4540 @@
+﻿<model version="7" publish="23">
+  <entities>
+    <entity schema="account" permissions="768" haslabels="true" xattr="768">
+      <properties>
+        <property schema="accountcategorycode"/>
+        <property schema="accountclassificationcode"/>
+        <property schema="accountid"/>
+        <property schema="accountnumber"/>
+        <property schema="accountratingcode"/>
+        <property schema="address1_addressid"/>
+        <property schema="address1_addresstypecode"/>
+        <property schema="address1_city"/>
+        <property schema="address1_composite"/>
+        <property schema="address1_country"/>
+        <property schema="address1_county"/>
+        <property schema="address1_fax"/>
+        <property schema="address1_freighttermscode"/>
+        <property schema="address1_latitude"/>
+        <property schema="address1_line1"/>
+        <property schema="address1_line2"/>
+        <property schema="address1_line3"/>
+        <property schema="address1_longitude"/>
+        <property schema="address1_name"/>
+        <property schema="address1_postalcode"/>
+        <property schema="address1_postofficebox"/>
+        <property schema="address1_primarycontactname"/>
+        <property schema="address1_shippingmethodcode"/>
+        <property schema="address1_stateorprovince"/>
+        <property schema="address1_telephone1"/>
+        <property schema="address1_telephone2"/>
+        <property schema="address1_telephone3"/>
+        <property schema="address1_upszone"/>
+        <property schema="address1_utcoffset"/>
+        <property schema="address2_addressid"/>
+        <property schema="address2_addresstypecode"/>
+        <property schema="address2_city"/>
+        <property schema="address2_composite"/>
+        <property schema="address2_country"/>
+        <property schema="address2_county"/>
+        <property schema="address2_fax"/>
+        <property schema="address2_freighttermscode"/>
+        <property schema="address2_latitude"/>
+        <property schema="address2_line1"/>
+        <property schema="address2_line2"/>
+        <property schema="address2_line3"/>
+        <property schema="address2_longitude"/>
+        <property schema="address2_name"/>
+        <property schema="address2_postalcode"/>
+        <property schema="address2_postofficebox"/>
+        <property schema="address2_primarycontactname"/>
+        <property schema="address2_shippingmethodcode"/>
+        <property schema="address2_stateorprovince"/>
+        <property schema="address2_telephone1"/>
+        <property schema="address2_telephone2"/>
+        <property schema="address2_telephone3"/>
+        <property schema="address2_upszone"/>
+        <property schema="address2_utcoffset"/>
+        <property schema="aging30"/>
+        <property schema="aging30_base"/>
+        <property schema="aging60"/>
+        <property schema="aging60_base"/>
+        <property schema="aging90"/>
+        <property schema="aging90_base"/>
+        <property schema="businesstypecode"/>
+        <property schema="createdby"/>
+        <property schema="createdbyexternalparty"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="creditlimit"/>
+        <property schema="creditlimit_base"/>
+        <property schema="creditonhold"/>
+        <property schema="customersizecode"/>
+        <property schema="customertypecode"/>
+        <property schema="defaultpricelevelid"/>
+        <property schema="description"/>
+        <property schema="donotbulkemail"/>
+        <property schema="donotbulkpostalmail"/>
+        <property schema="donotemail"/>
+        <property schema="donotfax"/>
+        <property schema="donotphone"/>
+        <property schema="donotpostalmail"/>
+        <property schema="donotsendmm"/>
+        <property schema="emailaddress1"/>
+        <property schema="emailaddress2"/>
+        <property schema="emailaddress3"/>
+        <property schema="entityimage"/>
+        <property schema="entityimageid"/>
+        <property schema="exchangerate"/>
+        <property schema="fax"/>
+        <property schema="followemail"/>
+        <property schema="ftpsiteurl"/>
+        <property schema="importsequencenumber"/>
+        <property schema="industrycode"/>
+        <property schema="kc_abcbusinessunitcode" fieldpermissions="Read"/>
+        <property schema="kc_abccompanycode" fieldpermissions="Read"/>
+        <property schema="kc_abcpotencialcode" fieldpermissions="Read"/>
+        <property schema="kc_accountworkcode"/>
+        <property schema="kc_addressoffice"/>
+        <property schema="kc_amountfactsku"/>
+        <property schema="kc_amountplansku"/>
+        <property schema="kc_amountsellin"/>
+        <property schema="kc_areastorage"/>
+        <property schema="kc_birthday"/>
+        <property schema="kc_businessunitid" fieldpermissions="Read"/>
+        <property schema="kc_channelsalescode"/>
+        <property schema="kc_code1c" fieldpermissions="Read"/>
+        <property schema="kc_countryid" fieldpermissions="Read"/>
+        <property schema="kc_customertypecode" fieldpermissions="Read"/>
+        <property schema="kc_datechangestage"/>
+        <property schema="kc_datemodifiedmatrix"/>
+        <property schema="kc_dateplanchangestage"/>
+        <property schema="kc_daterework"/>
+        <property schema="kc_dateshipment"/>
+        <property schema="kc_datestartofinteraction"/>
+        <property schema="kc_estimatedsalevolumesellout" fieldpermissions="Read"/>
+        <property schema="kc_factsalevolumesellout" fieldpermissions="Read"/>
+        <property schema="kc_facttotalsellinskl" fieldpermissions="Read"/>
+        <property schema="kc_facttotalselloutskl" fieldpermissions="Read"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_isdealer"/>
+        <property schema="kc_istask"/>
+        <property schema="kc_iswholesalercustomer"/>
+        <property schema="kc_kc_abcbusinessunitcode_l"/>
+        <property schema="kc_kc_abccompanycode_l"/>
+        <property schema="kc_kc_abcpotencialcode_l"/>
+        <property schema="kc_kc_accountworkcode_l"/>
+        <property schema="kc_kc_customertypecode_l"/>
+        <property schema="kc_kc_pricesegmentcode_l"/>
+        <property schema="kc_kc_reasonofindifferencecode_l"/>
+        <property schema="kc_kc_saledirectioncode_l"/>
+        <property schema="kc_kc_statuscode_l"/>
+        <property schema="kc_namenotfoundsupplier"/>
+        <property schema="kc_namesupplierid"/>
+        <property schema="kc_optionalstatuscode"/>
+        <property schema="kc_pkbstatuscode"/>
+        <property schema="kc_planfactsku"/>
+        <property schema="kc_plantotalselloutskl" fieldpermissions="Read"/>
+        <property schema="kc_plumbingandaccessoriescode"/>
+        <property schema="kc_pricesegmentcode"/>
+        <property schema="kc_productiddsormilardocode"/>
+        <property schema="kc_quantityactivestore"/>
+        <property schema="kc_quantityonlinestore"/>
+        <property schema="kc_quantitystore"/>
+        <property schema="kc_reasoncancelcode"/>
+        <property schema="kc_reasonofindifferencecode"/>
+        <property schema="kc_regionid" fieldpermissions="Read"/>
+        <property schema="kc_saledirectioncode"/>
+        <property schema="kc_send1c"/>
+        <property schema="kc_stageid"/>
+        <property schema="kc_statuscode"/>
+        <property schema="kc_statusofpotencial"/>
+        <property schema="kc_totalmounthlypotencialsellin" fieldpermissions="Read"/>
+        <property schema="kc_wholesalercustomer"/>
+        <property schema="kc_wholesalerstore"/>
+        <property schema="kc_zkbstatusreason"/>
+        <property schema="lastonholdtime"/>
+        <property schema="lastusedincampaign"/>
+        <property schema="marketcap"/>
+        <property schema="marketcap_base"/>
+        <property schema="marketingonly"/>
+        <property schema="masterid"/>
+        <property schema="merged"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedbyexternalparty"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="name"/>
+        <property schema="numberofemployees"/>
+        <property schema="onholdtime"/>
+        <property schema="opendeals"/>
+        <property schema="opendeals_date"/>
+        <property schema="opendeals_state"/>
+        <property schema="openrevenue"/>
+        <property schema="openrevenue_base"/>
+        <property schema="openrevenue_date"/>
+        <property schema="openrevenue_state"/>
+        <property schema="originatingleadid"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid" fieldpermissions="Read"/>
+        <property schema="ownershipcode"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="parentaccountid"/>
+        <property schema="participatesinworkflow"/>
+        <property schema="paymenttermscode"/>
+        <property schema="preferredappointmentdaycode"/>
+        <property schema="preferredappointmenttimecode"/>
+        <property schema="preferredcontactmethodcode"/>
+        <property schema="preferredequipmentid"/>
+        <property schema="preferredserviceid"/>
+        <property schema="preferredsystemuserid"/>
+        <property schema="primarycontactid"/>
+        <property schema="primarysatoriid"/>
+        <property schema="primarytwitterid"/>
+        <property schema="processid"/>
+        <property schema="revenue"/>
+        <property schema="revenue_base"/>
+        <property schema="sharesoutstanding"/>
+        <property schema="shippingmethodcode"/>
+        <property schema="sic"/>
+        <property schema="slaid"/>
+        <property schema="slainvokedid"/>
+        <property schema="stageid"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="stockexchange"/>
+        <property schema="telephone1"/>
+        <property schema="telephone2"/>
+        <property schema="telephone3"/>
+        <property schema="territorycode"/>
+        <property schema="territoryid"/>
+        <property schema="tickersymbol"/>
+        <property schema="timespentbymeonemailandmeetings"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="transactioncurrencyid"/>
+        <property schema="traversedpath"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+        <property schema="websiteurl"/>
+        <property schema="yominame"/>
+      </properties>
+      <indexes>
+        <index schema="idx_account_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_account_createdbyexternalparty" issystem="true">
+          <fields>
+            <field schema="createdbyexternalparty"/>
+          </fields>
+        </index>
+        <index schema="idx_account_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_account_defaultpricelevelid" issystem="true">
+          <fields>
+            <field schema="defaultpricelevelid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_kc_businessunitid" issystem="true">
+          <fields>
+            <field schema="kc_businessunitid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_kc_countryid" issystem="true">
+          <fields>
+            <field schema="kc_countryid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_kc_namesupplierid" issystem="true">
+          <fields>
+            <field schema="kc_namesupplierid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_kc_regionid" issystem="true">
+          <fields>
+            <field schema="kc_regionid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_kc_stageid" issystem="true">
+          <fields>
+            <field schema="kc_stageid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_masterid" issystem="true">
+          <fields>
+            <field schema="masterid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_account_modifiedbyexternalparty" issystem="true">
+          <fields>
+            <field schema="modifiedbyexternalparty"/>
+          </fields>
+        </index>
+        <index schema="idx_account_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_account_originatingleadid" issystem="true">
+          <fields>
+            <field schema="originatingleadid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_account_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_account_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_account_parentaccountid" issystem="true">
+          <fields>
+            <field schema="parentaccountid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_preferredequipmentid" issystem="true">
+          <fields>
+            <field schema="preferredequipmentid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_preferredserviceid" issystem="true">
+          <fields>
+            <field schema="preferredserviceid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_preferredsystemuserid" issystem="true">
+          <fields>
+            <field schema="preferredsystemuserid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_primarycontactid" issystem="true">
+          <fields>
+            <field schema="primarycontactid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_slaid" issystem="true">
+          <fields>
+            <field schema="slaid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_slainvokedid" issystem="true">
+          <fields>
+            <field schema="slainvokedid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_territoryid" issystem="true">
+          <fields>
+            <field schema="territoryid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_account_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="activity">
+      <properties>
+        <property schema="activityid"/>
+        <property schema="createdon"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="regardingobjectid"/>
+        <property schema="scheduledend"/>
+        <property schema="scheduledstart"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="subject"/>
+      </properties>
+      <indexes>
+        <index schema="idx_activity_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_activity_regardingobjectid" issystem="true">
+          <fields>
+            <field schema="regardingobjectid"/>
+          </fields>
+        </index>
+        <index schema="idx_activity_subject" issystem="true">
+          <fields>
+            <field schema="subject"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="activitymimeattachment">
+      <properties>
+        <property schema="activitymimeattachmentid"/>
+        <property schema="body"/>
+        <property schema="filename"/>
+        <property schema="filesize"/>
+        <property schema="mimetype"/>
+        <property schema="objectid"/>
+        <property schema="objecttypecode"/>
+        <property schema="ownerid"/>
+        <property schema="subject"/>
+      </properties>
+      <indexes>
+        <index schema="idx_activitymimeattachment_objectid" issystem="true">
+          <fields>
+            <field schema="objectid"/>
+          </fields>
+        </index>
+        <index schema="idx_activitymimeattachment_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_activitymimeattachment_filename" issystem="true">
+          <fields>
+            <field schema="filename"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="activityparty">
+      <properties>
+        <property schema="activityid"/>
+        <property schema="activitypartyid"/>
+        <property schema="addressused"/>
+        <property schema="participationtypemask"/>
+        <property schema="partyid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_activityparty_activityid" issystem="true">
+          <fields>
+            <field schema="activityid"/>
+          </fields>
+        </index>
+        <index schema="idx_activityparty_partyid" issystem="true">
+          <fields>
+            <field schema="partyid"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="annotation">
+      <properties>
+        <property schema="annotationid"/>
+        <property schema="createdon"/>
+        <property schema="documentbody"/>
+        <property schema="filename"/>
+        <property schema="filesize"/>
+        <property schema="isdocument"/>
+        <property schema="mimetype"/>
+        <property schema="modifiedon"/>
+        <property schema="notetext"/>
+        <property schema="objectid"/>
+        <property schema="objecttypecode"/>
+        <property schema="ownerid"/>
+        <property schema="subject"/>
+      </properties>
+      <indexes>
+        <index schema="idx_annotation_objectid" issystem="true">
+          <fields>
+            <field schema="objectid"/>
+          </fields>
+        </index>
+        <index schema="idx_annotation_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_annotation_subject" issystem="true">
+          <fields>
+            <field schema="subject"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="appointment" permissions="512" haslabels="true" xattr="512">
+      <properties>
+        <property schema="activityadditionalparams"/>
+        <property schema="activityid"/>
+        <property schema="activitytypecode"/>
+        <property schema="actualdurationminutes"/>
+        <property schema="actualend"/>
+        <property schema="actualstart"/>
+        <property schema="attachmentcount"/>
+        <property schema="attachmenterrors"/>
+        <property schema="category"/>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="description"/>
+        <property schema="exchangerate"/>
+        <property schema="globalobjectid"/>
+        <property schema="importsequencenumber"/>
+        <property schema="instancetypecode"/>
+        <property schema="isalldayevent"/>
+        <property schema="isbilled"/>
+        <property schema="isdraft"/>
+        <property schema="ismapiprivate"/>
+        <property schema="isregularactivity"/>
+        <property schema="isunsafe"/>
+        <property schema="kc_datefuturevisit"/>
+        <property schema="kc_latitude"/>
+        <property schema="kc_longitude"/>
+        <property schema="kc_result"/>
+        <property schema="lastonholdtime"/>
+        <property schema="location"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedfieldsmask"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="onholdtime"/>
+        <property schema="optionalattendees"/>
+        <property schema="organizer"/>
+        <property schema="originalstartdate"/>
+        <property schema="outlookownerapptid"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="prioritycode"/>
+        <property schema="regardingobjectid"/>
+        <property schema="requiredattendees"/>
+        <property schema="resco_eventid"/>
+        <property schema="resco_externalid"/>
+        <property schema="resco_islocal"/>
+        <property schema="resco_source"/>
+        <property schema="scheduleddurationminutes"/>
+        <property schema="scheduledend"/>
+        <property schema="scheduledstart"/>
+        <property schema="slainvokedid"/>
+        <property schema="sortdate"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="subcategory"/>
+        <property schema="subject"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="transactioncurrencyid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_appointment_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_appointment_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_appointment_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_appointment_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_appointment_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_appointment_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_appointment_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_appointment_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_appointment_regardingobjectid" issystem="true">
+          <fields>
+            <field schema="regardingobjectid"/>
+          </fields>
+        </index>
+        <index schema="idx_appointment_slainvokedid" issystem="true">
+          <fields>
+            <field schema="slainvokedid"/>
+          </fields>
+        </index>
+        <index schema="idx_appointment_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_appointment_subject" issystem="true">
+          <fields>
+            <field schema="subject"/>
+          </fields>
+        </index>
+        <index schema="idx_appointment_scheduledend" issystem="true">
+          <fields>
+            <field schema="scheduledend"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="attributemap">
+      <properties>
+        <property schema="attributemapid"/>
+        <property schema="createdon"/>
+        <property schema="entitymapid"/>
+        <property schema="modifiedon"/>
+        <property schema="sourceattributename"/>
+        <property schema="targetattributename"/>
+      </properties>
+      <indexes>
+        <index schema="idx_attributemap_entitymapid" issystem="true">
+          <fields>
+            <field schema="entitymapid"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="competitor" permissions="896" haslabels="true" xattr="896">
+      <properties>
+        <property schema="competitorid"/>
+        <property schema="createdon"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+      </properties>
+      <indexes>
+        <index schema="idx_competitor_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="contact" permissions="512" haslabels="true" xattr="512">
+      <properties>
+        <property schema="accountid"/>
+        <property schema="accountrolecode"/>
+        <property schema="address1_addressid"/>
+        <property schema="address1_addresstypecode"/>
+        <property schema="address1_city"/>
+        <property schema="address1_composite"/>
+        <property schema="address1_country"/>
+        <property schema="address1_county"/>
+        <property schema="address1_fax"/>
+        <property schema="address1_freighttermscode"/>
+        <property schema="address1_latitude"/>
+        <property schema="address1_line1"/>
+        <property schema="address1_line2"/>
+        <property schema="address1_line3"/>
+        <property schema="address1_longitude"/>
+        <property schema="address1_name"/>
+        <property schema="address1_postalcode"/>
+        <property schema="address1_postofficebox"/>
+        <property schema="address1_primarycontactname"/>
+        <property schema="address1_shippingmethodcode"/>
+        <property schema="address1_stateorprovince"/>
+        <property schema="address1_telephone1"/>
+        <property schema="address1_telephone2"/>
+        <property schema="address1_telephone3"/>
+        <property schema="address1_upszone"/>
+        <property schema="address1_utcoffset"/>
+        <property schema="address2_addressid"/>
+        <property schema="address2_addresstypecode"/>
+        <property schema="address2_city"/>
+        <property schema="address2_composite"/>
+        <property schema="address2_country"/>
+        <property schema="address2_county"/>
+        <property schema="address2_fax"/>
+        <property schema="address2_freighttermscode"/>
+        <property schema="address2_latitude"/>
+        <property schema="address2_line1"/>
+        <property schema="address2_line2"/>
+        <property schema="address2_line3"/>
+        <property schema="address2_longitude"/>
+        <property schema="address2_name"/>
+        <property schema="address2_postalcode"/>
+        <property schema="address2_postofficebox"/>
+        <property schema="address2_primarycontactname"/>
+        <property schema="address2_shippingmethodcode"/>
+        <property schema="address2_stateorprovince"/>
+        <property schema="address2_telephone1"/>
+        <property schema="address2_telephone2"/>
+        <property schema="address2_telephone3"/>
+        <property schema="address2_upszone"/>
+        <property schema="address2_utcoffset"/>
+        <property schema="address3_addressid"/>
+        <property schema="address3_addresstypecode"/>
+        <property schema="address3_city"/>
+        <property schema="address3_composite"/>
+        <property schema="address3_country"/>
+        <property schema="address3_county"/>
+        <property schema="address3_fax"/>
+        <property schema="address3_freighttermscode"/>
+        <property schema="address3_latitude"/>
+        <property schema="address3_line1"/>
+        <property schema="address3_line2"/>
+        <property schema="address3_line3"/>
+        <property schema="address3_longitude"/>
+        <property schema="address3_name"/>
+        <property schema="address3_postalcode"/>
+        <property schema="address3_postofficebox"/>
+        <property schema="address3_primarycontactname"/>
+        <property schema="address3_shippingmethodcode"/>
+        <property schema="address3_stateorprovince"/>
+        <property schema="address3_telephone1"/>
+        <property schema="address3_telephone2"/>
+        <property schema="address3_telephone3"/>
+        <property schema="address3_upszone"/>
+        <property schema="address3_utcoffset"/>
+        <property schema="aging30"/>
+        <property schema="aging30_base"/>
+        <property schema="aging60"/>
+        <property schema="aging60_base"/>
+        <property schema="aging90"/>
+        <property schema="aging90_base"/>
+        <property schema="anniversary"/>
+        <property schema="annualincome"/>
+        <property schema="annualincome_base"/>
+        <property schema="assistantname"/>
+        <property schema="assistantphone"/>
+        <property schema="birthdate"/>
+        <property schema="business2"/>
+        <property schema="callback"/>
+        <property schema="childrensnames"/>
+        <property schema="company"/>
+        <property schema="contactid"/>
+        <property schema="createdby"/>
+        <property schema="createdbyexternalparty"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="creditlimit"/>
+        <property schema="creditlimit_base"/>
+        <property schema="creditonhold"/>
+        <property schema="customersizecode"/>
+        <property schema="customertypecode"/>
+        <property schema="defaultpricelevelid"/>
+        <property schema="department"/>
+        <property schema="description"/>
+        <property schema="donotbulkemail"/>
+        <property schema="donotbulkpostalmail"/>
+        <property schema="donotemail"/>
+        <property schema="donotfax"/>
+        <property schema="donotphone"/>
+        <property schema="donotpostalmail"/>
+        <property schema="donotsendmm"/>
+        <property schema="educationcode"/>
+        <property schema="emailaddress1"/>
+        <property schema="emailaddress2"/>
+        <property schema="emailaddress3"/>
+        <property schema="employeeid"/>
+        <property schema="entityimage"/>
+        <property schema="entityimageid"/>
+        <property schema="exchangerate"/>
+        <property schema="externaluseridentifier"/>
+        <property schema="familystatuscode"/>
+        <property schema="fax"/>
+        <property schema="firstname"/>
+        <property schema="followemail"/>
+        <property schema="ftpsiteurl"/>
+        <property schema="fullname"/>
+        <property schema="gendercode"/>
+        <property schema="governmentid"/>
+        <property schema="haschildrencode"/>
+        <property schema="home2"/>
+        <property schema="importsequencenumber"/>
+        <property schema="isbackofficecustomer"/>
+        <property schema="jobtitle"/>
+        <property schema="kc_additionalnumber"/>
+        <property schema="kc_basis"/>
+        <property schema="kc_counterpartyid"/>
+        <property schema="kc_hobby"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_jobtitleingenitive"/>
+        <property schema="kc_nameindative"/>
+        <property schema="kc_nameingenitive"/>
+        <property schema="kc_send1c"/>
+        <property schema="kc_signer"/>
+        <property schema="kc_storeid"/>
+        <property schema="lastname"/>
+        <property schema="lastonholdtime"/>
+        <property schema="lastusedincampaign"/>
+        <property schema="leadsourcecode"/>
+        <property schema="managername"/>
+        <property schema="managerphone"/>
+        <property schema="marketingonly"/>
+        <property schema="masterid"/>
+        <property schema="merged"/>
+        <property schema="middlename"/>
+        <property schema="mobilephone"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedbyexternalparty"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="msdyn_gdproptout"/>
+        <property schema="nickname"/>
+        <property schema="numberofchildren"/>
+        <property schema="onholdtime"/>
+        <property schema="originatingleadid"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="pager"/>
+        <property schema="parentcontactid"/>
+        <property schema="parentcustomerid"/>
+        <property schema="participatesinworkflow"/>
+        <property schema="paymenttermscode"/>
+        <property schema="preferredappointmentdaycode"/>
+        <property schema="preferredappointmenttimecode"/>
+        <property schema="preferredcontactmethodcode"/>
+        <property schema="preferredequipmentid"/>
+        <property schema="preferredserviceid"/>
+        <property schema="preferredsystemuserid"/>
+        <property schema="processid"/>
+        <property schema="salutation"/>
+        <property schema="shippingmethodcode"/>
+        <property schema="slaid"/>
+        <property schema="slainvokedid"/>
+        <property schema="spousesname"/>
+        <property schema="stageid"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="suffix"/>
+        <property schema="telephone1"/>
+        <property schema="telephone2"/>
+        <property schema="telephone3"/>
+        <property schema="territorycode"/>
+        <property schema="timespentbymeonemailandmeetings"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="transactioncurrencyid"/>
+        <property schema="traversedpath"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+        <property schema="websiteurl"/>
+        <property schema="yomifirstname"/>
+        <property schema="yomifullname"/>
+        <property schema="yomilastname"/>
+        <property schema="yomimiddlename"/>
+      </properties>
+      <indexes>
+        <index schema="idx_contact_accountid" issystem="true">
+          <fields>
+            <field schema="accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_createdbyexternalparty" issystem="true">
+          <fields>
+            <field schema="createdbyexternalparty"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_defaultpricelevelid" issystem="true">
+          <fields>
+            <field schema="defaultpricelevelid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_kc_counterpartyid" issystem="true">
+          <fields>
+            <field schema="kc_counterpartyid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_kc_storeid" issystem="true">
+          <fields>
+            <field schema="kc_storeid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_masterid" issystem="true">
+          <fields>
+            <field schema="masterid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_modifiedbyexternalparty" issystem="true">
+          <fields>
+            <field schema="modifiedbyexternalparty"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_originatingleadid" issystem="true">
+          <fields>
+            <field schema="originatingleadid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_parentcontactid" issystem="true">
+          <fields>
+            <field schema="parentcontactid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_parentcustomerid" issystem="true">
+          <fields>
+            <field schema="parentcustomerid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_preferredequipmentid" issystem="true">
+          <fields>
+            <field schema="preferredequipmentid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_preferredserviceid" issystem="true">
+          <fields>
+            <field schema="preferredserviceid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_preferredsystemuserid" issystem="true">
+          <fields>
+            <field schema="preferredsystemuserid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_slaid" issystem="true">
+          <fields>
+            <field schema="slaid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_slainvokedid" issystem="true">
+          <fields>
+            <field schema="slainvokedid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_contact_fullname" issystem="true">
+          <fields>
+            <field schema="fullname"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="email" permissions="512" haslabels="true" xattr="512">
+      <properties>
+        <property schema="activityid"/>
+        <property schema="actualdurationminutes"/>
+        <property schema="actualend"/>
+        <property schema="actualstart"/>
+        <property schema="cc"/>
+        <property schema="createdon"/>
+        <property schema="description"/>
+        <property schema="directioncode"/>
+        <property schema="from"/>
+        <property schema="mimetype"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="prioritycode"/>
+        <property schema="regardingobjectid"/>
+        <property schema="resco_contentstatus"/>
+        <property schema="resco_createdas"/>
+        <property schema="resco_createdfrom"/>
+        <property schema="resco_emailid"/>
+        <property schema="resco_eventid"/>
+        <property schema="resco_islocal"/>
+        <property schema="resco_snippet"/>
+        <property schema="resco_source"/>
+        <property schema="resco_statuscode"/>
+        <property schema="resco_threadid"/>
+        <property schema="scheduledend"/>
+        <property schema="scheduledstart"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="subject"/>
+        <property schema="to"/>
+        <property schema="trackingtoken"/>
+      </properties>
+      <indexes>
+        <index schema="idx_email_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_email_regardingobjectid" issystem="true">
+          <fields>
+            <field schema="regardingobjectid"/>
+          </fields>
+        </index>
+        <index schema="idx_email_subject" issystem="true">
+          <fields>
+            <field schema="subject"/>
+          </fields>
+        </index>
+        <index schema="idx_email_scheduledend" issystem="true">
+          <fields>
+            <field schema="scheduledend"/>
+          </fields>
+        </index>
+        <index schema="idx_email_resco_emailid" issystem="true">
+          <fields>
+            <field schema="resco_emailid"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="entitymap">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="entitymapid"/>
+        <property schema="modifiedon"/>
+        <property schema="sourceentityname"/>
+        <property schema="targetentityname"/>
+      </properties>
+    </entity>
+    <entity schema="kc_abc">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_abccode"/>
+        <property schema="kc_abcid"/>
+        <property schema="kc_accountid"/>
+        <property schema="kc_businessunitid"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_name"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_abc_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_abc_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_abc_kc_accountid" issystem="true">
+          <fields>
+            <field schema="kc_accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_abc_kc_businessunitid" issystem="true">
+          <fields>
+            <field schema="kc_businessunitid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_abc_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_abc_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_abc_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_abc_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_abc_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_abc_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_abc_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_assortmentdetail" permissions="896" haslabels="true" xattr="896">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_accountid" fieldpermissions="Read"/>
+        <property schema="kc_assortmentdetailid"/>
+        <property schema="kc_brandnameid"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_isbrand"/>
+        <property schema="kc_isinstock"/>
+        <property schema="kc_kep"/>
+        <property schema="kc_margin"/>
+        <property schema="kc_name"/>
+        <property schema="kc_plansellout"/>
+        <property schema="kc_planselloutskl"/>
+        <property schema="kc_planshareskl"/>
+        <property schema="kc_potencialshareskl"/>
+        <property schema="kc_potencialsharesklnormal"/>
+        <property schema="kc_potentialsellin"/>
+        <property schema="kc_productcategoryid"/>
+        <property schema="kc_quantitysku"/>
+        <property schema="kc_quantityskubybrand"/>
+        <property schema="kc_quantityskusklaudit"/>
+        <property schema="kc_quantityskusklmatrix"/>
+        <property schema="kc_sellinskl"/>
+        <property schema="kc_sellout"/>
+        <property schema="kc_selloutskl"/>
+        <property schema="kc_selloutsklbrand"/>
+        <property schema="kc_shareofsalesskl"/>
+        <property schema="kc_shareofshelf"/>
+        <property schema="kc_shareofshelfaudit"/>
+        <property schema="kc_storeid" fieldpermissions="Read"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_assortmentdetail_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_assortmentdetail_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_assortmentdetail_kc_accountid" issystem="true">
+          <fields>
+            <field schema="kc_accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_assortmentdetail_kc_brandnameid" issystem="true">
+          <fields>
+            <field schema="kc_brandnameid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_assortmentdetail_kc_productcategoryid" issystem="true">
+          <fields>
+            <field schema="kc_productcategoryid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_assortmentdetail_kc_storeid" issystem="true">
+          <fields>
+            <field schema="kc_storeid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_assortmentdetail_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_assortmentdetail_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_assortmentdetail_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_assortmentdetail_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_assortmentdetail_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_assortmentdetail_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_assortmentdetail_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_auditchecklist" haslabels="true">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_accountid"/>
+        <property schema="kc_addess"/>
+        <property schema="kc_areatvk"/>
+        <property schema="kc_auditchecklistid"/>
+        <property schema="kc_cityid"/>
+        <property schema="kc_counterpartyid"/>
+        <property schema="kc_name"/>
+        <property schema="kc_quantitycashbox"/>
+        <property schema="kc_statuscode"/>
+        <property schema="kc_storeid"/>
+        <property schema="kc_systemuserid"/>
+        <property schema="kc_telephone"/>
+        <property schema="kc_totalareastore"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_auditchecklist_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_kc_accountid" issystem="true">
+          <fields>
+            <field schema="kc_accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_kc_cityid" issystem="true">
+          <fields>
+            <field schema="kc_cityid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_kc_counterpartyid" issystem="true">
+          <fields>
+            <field schema="kc_counterpartyid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_kc_storeid" issystem="true">
+          <fields>
+            <field schema="kc_storeid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_kc_systemuserid" issystem="true">
+          <fields>
+            <field schema="kc_systemuserid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklist_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_auditchecklistdetail" haslabels="true">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_auditchecklistdetailid"/>
+        <property schema="kc_auditchecklistid"/>
+        <property schema="kc_kep"/>
+        <property schema="kc_name"/>
+        <property schema="kc_productcategoryid"/>
+        <property schema="kc_quantitysku"/>
+        <property schema="kc_quantityskuskl"/>
+        <property schema="kc_sellinskl"/>
+        <property schema="kc_selloutskl"/>
+        <property schema="kc_selloutstore"/>
+        <property schema="kc_shareofsale"/>
+        <property schema="kc_shareofshelf"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_auditchecklistdetail_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklistdetail_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklistdetail_kc_auditchecklistid" issystem="true">
+          <fields>
+            <field schema="kc_auditchecklistid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklistdetail_kc_productcategoryid" issystem="true">
+          <fields>
+            <field schema="kc_productcategoryid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklistdetail_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklistdetail_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklistdetail_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklistdetail_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklistdetail_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklistdetail_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_auditchecklistdetail_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_brandname">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_brandnameid"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_name"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="organizationid"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_brandname_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_brandname_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_brandname_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_brandname_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_brandname_organizationid" issystem="true">
+          <fields>
+            <field schema="organizationid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_brandname_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_collection">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_collectionid"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_name"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="organizationid"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_collection_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_collection_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_collection_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_collection_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_collection_organizationid" issystem="true">
+          <fields>
+            <field schema="organizationid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_collection_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_competitorfromaudit">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="kc_competitorfromauditid"/>
+        <property schema="kc_name"/>
+        <property schema="modifiedon"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_competitorfromaudit_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_competitorinstore" permissions="896" haslabels="true" xattr="896">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="kc_accountid"/>
+        <property schema="kc_competitorid"/>
+        <property schema="kc_competitorinstoreid"/>
+        <property schema="kc_name"/>
+        <property schema="kc_productcategoryid"/>
+        <property schema="kc_storeid"/>
+        <property schema="modifiedon"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_competitorinstore_kc_accountid" issystem="true">
+          <fields>
+            <field schema="kc_accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_competitorinstore_kc_competitorid" issystem="true">
+          <fields>
+            <field schema="kc_competitorid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_competitorinstore_kc_productcategoryid" issystem="true">
+          <fields>
+            <field schema="kc_productcategoryid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_competitorinstore_kc_storeid" issystem="true">
+          <fields>
+            <field schema="kc_storeid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_competitorinstore_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_contract">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_accountid"/>
+        <property schema="kc_additionalnumber"/>
+        <property schema="kc_agreement"/>
+        <property schema="kc_bankdetailid"/>
+        <property schema="kc_bankdetailsklid"/>
+        <property schema="kc_brandcode"/>
+        <property schema="kc_businessunitid"/>
+        <property schema="kc_commercialtermid"/>
+        <property schema="kc_conditionofcontractduring"/>
+        <property schema="kc_contractid"/>
+        <property schema="kc_contracttypecode"/>
+        <property schema="kc_contractworkduring"/>
+        <property schema="kc_counterpartyid"/>
+        <property schema="kc_counterpartysklid"/>
+        <property schema="kc_datecontractdelivery"/>
+        <property schema="kc_dateend"/>
+        <property schema="kc_datefinishpurchasing"/>
+        <property schema="kc_datestart"/>
+        <property schema="kc_deliveryproducttext"/>
+        <property schema="kc_description"/>
+        <property schema="kc_emailskl"/>
+        <property schema="kc_id"/>
+        <property schema="kc_isactivecontract"/>
+        <property schema="kc_iscustomerproject"/>
+        <property schema="kc_maincontractid"/>
+        <property schema="kc_name"/>
+        <property schema="kc_penaltycharge"/>
+        <property schema="kc_prolongationcode"/>
+        <property schema="kc_quantitydaytext"/>
+        <property schema="kc_quoteid"/>
+        <property schema="kc_regionid"/>
+        <property schema="kc_sedo"/>
+        <property schema="kc_senddemandtext"/>
+        <property schema="kc_signedcontactid"/>
+        <property schema="kc_signedsklid"/>
+        <property schema="kc_statuscode"/>
+        <property schema="kc_telephoneskl"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_contract_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_accountid" issystem="true">
+          <fields>
+            <field schema="kc_accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_bankdetailid" issystem="true">
+          <fields>
+            <field schema="kc_bankdetailid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_bankdetailsklid" issystem="true">
+          <fields>
+            <field schema="kc_bankdetailsklid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_businessunitid" issystem="true">
+          <fields>
+            <field schema="kc_businessunitid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_commercialtermid" issystem="true">
+          <fields>
+            <field schema="kc_commercialtermid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_counterpartyid" issystem="true">
+          <fields>
+            <field schema="kc_counterpartyid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_counterpartysklid" issystem="true">
+          <fields>
+            <field schema="kc_counterpartysklid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_maincontractid" issystem="true">
+          <fields>
+            <field schema="kc_maincontractid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_quoteid" issystem="true">
+          <fields>
+            <field schema="kc_quoteid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_regionid" issystem="true">
+          <fields>
+            <field schema="kc_regionid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_signedcontactid" issystem="true">
+          <fields>
+            <field schema="kc_signedcontactid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_signedsklid" issystem="true">
+          <fields>
+            <field schema="kc_signedsklid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_contract_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_counterparty" permissions="768" haslabels="true" xattr="768">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="emailaddress"/>
+        <property schema="kc_accountid"/>
+        <property schema="kc_address"/>
+        <property schema="kc_businessunitid"/>
+        <property schema="kc_code1c"/>
+        <property schema="kc_counterpartyid"/>
+        <property schema="kc_createdin1c"/>
+        <property schema="kc_dadata"/>
+        <property schema="kc_dateogrn"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_inn"/>
+        <property schema="kc_isskl"/>
+        <property schema="kc_kpp"/>
+        <property schema="kc_legaladdress"/>
+        <property schema="kc_legalname"/>
+        <property schema="kc_mainregionid"/>
+        <property schema="kc_name"/>
+        <property schema="kc_nonresident"/>
+        <property schema="kc_ogrn_ogrnip"/>
+        <property schema="kc_okopf"/>
+        <property schema="kc_okpo"/>
+        <property schema="kc_originatingleadid"/>
+        <property schema="kc_postaddress"/>
+        <property schema="kc_send1c"/>
+        <property schema="kc_statecode_l"/>
+        <property schema="kc_telephone"/>
+        <property schema="kc_typecode"/>
+        <property schema="kc_website"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_counterparty_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_counterparty_kc_accountid" issystem="true">
+          <fields>
+            <field schema="kc_accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_counterparty_kc_businessunitid" issystem="true">
+          <fields>
+            <field schema="kc_businessunitid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_counterparty_kc_mainregionid" issystem="true">
+          <fields>
+            <field schema="kc_mainregionid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_counterparty_kc_originatingleadid" issystem="true">
+          <fields>
+            <field schema="kc_originatingleadid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_counterparty_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_counterparty_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_counterparty_kc_store">
+      <properties>
+        <property schema="kc_counterpartyid"/>
+        <property schema="kc_storeid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_counterparty_kc_store" issystem="true">
+          <fields>
+            <field schema="kc_counterpartyid"/>
+            <field schema="kc_storeid"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_matrixdetail" haslabels="true">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_accountid"/>
+        <property schema="kc_brandnameid"/>
+        <property schema="kc_collectionid"/>
+        <property schema="kc_dataclosedaction"/>
+        <property schema="kc_distributionaccountcode"/>
+        <property schema="kc_distributionskusklcode"/>
+        <property schema="kc_effectivefrom"/>
+        <property schema="kc_effectiveto"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_initiatorcode"/>
+        <property schema="kc_initiatorid"/>
+        <property schema="kc_isaudit"/>
+        <property schema="kc_isfact"/>
+        <property schema="kc_kc_statuscode_l"/>
+        <property schema="kc_matrixdetailid"/>
+        <property schema="kc_name"/>
+        <property schema="kc_productcategoryid"/>
+        <property schema="kc_productgroupid"/>
+        <property schema="kc_productid"/>
+        <property schema="kc_productnumber"/>
+        <property schema="kc_productrangeid"/>
+        <property schema="kc_productstatuscode"/>
+        <property schema="kc_statuscode"/>
+        <property schema="kc_storeid"/>
+        <property schema="kc_thereisstore"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_matrixdetail_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_kc_accountid" issystem="true">
+          <fields>
+            <field schema="kc_accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_kc_brandnameid" issystem="true">
+          <fields>
+            <field schema="kc_brandnameid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_kc_collectionid" issystem="true">
+          <fields>
+            <field schema="kc_collectionid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_kc_initiatorid" issystem="true">
+          <fields>
+            <field schema="kc_initiatorid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_kc_productcategoryid" issystem="true">
+          <fields>
+            <field schema="kc_productcategoryid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_kc_productgroupid" issystem="true">
+          <fields>
+            <field schema="kc_productgroupid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_kc_productid" issystem="true">
+          <fields>
+            <field schema="kc_productid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_kc_productrangeid" issystem="true">
+          <fields>
+            <field schema="kc_productrangeid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_kc_storeid" issystem="true">
+          <fields>
+            <field schema="kc_storeid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_matrixdetail_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_order">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_accountid"/>
+        <property schema="kc_businessunitid"/>
+        <property schema="kc_counterpartyid"/>
+        <property schema="kc_createdin1c"/>
+        <property schema="kc_deliverytypecode"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_kc_deliverytypecode_l"/>
+        <property schema="kc_kc_paymenttypecode_l"/>
+        <property schema="kc_name"/>
+        <property schema="kc_orderid"/>
+        <property schema="kc_paymenttypecode"/>
+        <property schema="kc_send1c"/>
+        <property schema="kc_storageid"/>
+        <property schema="kc_storeid"/>
+        <property schema="kc_sum"/>
+        <property schema="kc_umvat"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_order_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_kc_accountid" issystem="true">
+          <fields>
+            <field schema="kc_accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_kc_businessunitid" issystem="true">
+          <fields>
+            <field schema="kc_businessunitid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_kc_counterpartyid" issystem="true">
+          <fields>
+            <field schema="kc_counterpartyid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_kc_storageid" issystem="true">
+          <fields>
+            <field schema="kc_storageid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_kc_storeid" issystem="true">
+          <fields>
+            <field schema="kc_storeid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_order_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_orderdetail" haslabels="true">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_actiondiscount"/>
+        <property schema="kc_arc"/>
+        <property schema="kc_balanceatstorage"/>
+        <property schema="kc_name"/>
+        <property schema="kc_orderdetailid"/>
+        <property schema="kc_orderid"/>
+        <property schema="kc_priceaction"/>
+        <property schema="kc_priceforcustomer"/>
+        <property schema="kc_priceofshipment"/>
+        <property schema="kc_productid"/>
+        <property schema="kc_rrc"/>
+        <property schema="kc_sum"/>
+        <property schema="kc_sumvat"/>
+        <property schema="kc_totaldiscount"/>
+        <property schema="kc_uomid"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_orderdetail_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_orderdetail_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_orderdetail_kc_orderid" issystem="true">
+          <fields>
+            <field schema="kc_orderid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_orderdetail_kc_productid" issystem="true">
+          <fields>
+            <field schema="kc_productid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_orderdetail_kc_uomid" issystem="true">
+          <fields>
+            <field schema="kc_uomid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_orderdetail_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_orderdetail_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_orderdetail_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_orderdetail_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_orderdetail_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_orderdetail_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_orderdetail_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_productcategory" haslabels="true">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="kc_name"/>
+        <property schema="kc_productcategoryid"/>
+        <property schema="modifiedon"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_productcategory_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_productgroup" haslabels="true">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="kc_name"/>
+        <property schema="kc_productgroupid"/>
+        <property schema="modifiedon"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_productgroup_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_productproperty" haslabels="true">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_name"/>
+        <property schema="kc_productid"/>
+        <property schema="kc_productpropertyid"/>
+        <property schema="kc_propertyid"/>
+        <property schema="kc_valueboolean"/>
+        <property schema="kc_valuedecimal"/>
+        <property schema="kc_valuepropertyid"/>
+        <property schema="kc_valuetext"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="organizationid"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_productproperty_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productproperty_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productproperty_kc_productid" issystem="true">
+          <fields>
+            <field schema="kc_productid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productproperty_kc_propertyid" issystem="true">
+          <fields>
+            <field schema="kc_propertyid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productproperty_kc_valuepropertyid" issystem="true">
+          <fields>
+            <field schema="kc_valuepropertyid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productproperty_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productproperty_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productproperty_organizationid" issystem="true">
+          <fields>
+            <field schema="organizationid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productproperty_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_productrange" haslabels="true">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_name"/>
+        <property schema="kc_productrangeid"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="organizationid"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_productrange_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productrange_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productrange_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productrange_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productrange_organizationid" issystem="true">
+          <fields>
+            <field schema="organizationid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_productrange_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_property" haslabels="true">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_name"/>
+        <property schema="kc_propertyid"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="organizationid"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_property_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_property_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_property_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_property_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_property_organizationid" issystem="true">
+          <fields>
+            <field schema="organizationid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_property_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_questionnaire_answer">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="kc_name"/>
+        <property schema="kc_questionnaire_answerid"/>
+        <property schema="kc_questionnaire_instanceid"/>
+        <property schema="kc_questionnaire_questionid"/>
+        <property schema="kc_score"/>
+        <property schema="kc_value_boolean"/>
+        <property schema="kc_value_date"/>
+        <property schema="kc_value_datetime"/>
+        <property schema="kc_value_decimal"/>
+        <property schema="kc_value_text"/>
+        <property schema="kc_value_whole"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_questionnaire_answer_kc_questionnaire_instanceid" issystem="true">
+          <fields>
+            <field schema="kc_questionnaire_instanceid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_questionnaire_answer_kc_questionnaire_questionid" issystem="true">
+          <fields>
+            <field schema="kc_questionnaire_questionid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_questionnaire_answer_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_questionnaire_answer_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_questionnaire_instance">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="kc_name"/>
+        <property schema="kc_questionnaire_instanceid"/>
+        <property schema="kc_questionnaire_templateid"/>
+        <property schema="kc_summaryscore"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_questionnaire_instance_kc_questionnaire_templateid" issystem="true">
+          <fields>
+            <field schema="kc_questionnaire_templateid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_questionnaire_instance_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_questionnaire_instance_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_questionnaire_option">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="kc_description"/>
+        <property schema="kc_index"/>
+        <property schema="kc_name"/>
+        <property schema="kc_questionnaire_answerid"/>
+        <property schema="kc_questionnaire_optionid"/>
+        <property schema="kc_recordtypecode"/>
+        <property schema="kc_score"/>
+        <property schema="modifiedon"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_questionnaire_option_kc_questionnaire_answerid" issystem="true">
+          <fields>
+            <field schema="kc_questionnaire_answerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_questionnaire_option_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_questionnaire_question">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="kc_description"/>
+        <property schema="kc_index"/>
+        <property schema="kc_isrequired"/>
+        <property schema="kc_name"/>
+        <property schema="kc_questionnaire_questionid"/>
+        <property schema="kc_questionnaire_questiontypecode"/>
+        <property schema="kc_score"/>
+        <property schema="modifiedon"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_questionnaire_question_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_questionnaire_question_option">
+      <properties>
+        <property schema="kc_questionnaire_optionid"/>
+        <property schema="kc_questionnaire_questionid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_questionnaire_question_option" issystem="true">
+          <fields>
+            <field schema="kc_questionnaire_optionid"/>
+            <field schema="kc_questionnaire_questionid"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_questionnaire_template">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="kc_name"/>
+        <property schema="kc_questionnaire_templateid"/>
+        <property schema="modifiedon"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_questionnaire_template_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_questionnaire_template_question">
+      <properties>
+        <property schema="kc_questionnaire_questionid"/>
+        <property schema="kc_questionnaire_templateid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_questionnaire_template_question" issystem="true">
+          <fields>
+            <field schema="kc_questionnaire_questionid"/>
+            <field schema="kc_questionnaire_templateid"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_sellouttool">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_accountid"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_istool"/>
+        <property schema="kc_name"/>
+        <property schema="kc_sellouttoolid"/>
+        <property schema="kc_startdate"/>
+        <property schema="kc_storeid"/>
+        <property schema="kc_typesellouttoolid"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_sellouttool_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_sellouttool_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_sellouttool_kc_accountid" issystem="true">
+          <fields>
+            <field schema="kc_accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_sellouttool_kc_storeid" issystem="true">
+          <fields>
+            <field schema="kc_storeid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_sellouttool_kc_typesellouttoolid" issystem="true">
+          <fields>
+            <field schema="kc_typesellouttoolid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_sellouttool_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_sellouttool_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_sellouttool_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_sellouttool_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_sellouttool_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_sellouttool_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_sellouttool_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_stageofinteraction" permissions="512" haslabels="true" xattr="512">
+      <properties>
+        <property schema="activestageid"/>
+        <property schema="activestagestartedon"/>
+        <property schema="bpf_accountid"/>
+        <property schema="bpf_duration"/>
+        <property schema="bpf_name"/>
+        <property schema="businessprocessflowinstanceid"/>
+        <property schema="completedon"/>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="organizationid"/>
+        <property schema="processid"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="traversedpath"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_stageofinteraction_activestageid" issystem="true">
+          <fields>
+            <field schema="activestageid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_stageofinteraction_bpf_accountid" issystem="true">
+          <fields>
+            <field schema="bpf_accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_stageofinteraction_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_stageofinteraction_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_stageofinteraction_organizationid" issystem="true">
+          <fields>
+            <field schema="organizationid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_stageofinteraction_processid" issystem="true">
+          <fields>
+            <field schema="processid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_stageofinteraction_bpf_name" issystem="true">
+          <fields>
+            <field schema="bpf_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_store" permissions="768" haslabels="true" xattr="768">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="emailaddress"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_accountid"/>
+        <property schema="kc_address"/>
+        <property schema="kc_addressdescription"/>
+        <property schema="kc_amountfactsku"/>
+        <property schema="kc_amountplansku"/>
+        <property schema="kc_amountsellin"/>
+        <property schema="kc_areaplumbing"/>
+        <property schema="kc_businessunitid"/>
+        <property schema="kc_dadataregion"/>
+        <property schema="kc_datelastshipment"/>
+        <property schema="kc_datelastvisit"/>
+        <property schema="kc_datemodifiedmatrix"/>
+        <property schema="kc_daterework"/>
+        <property schema="kc_datestartshipment"/>
+        <property schema="kc_datevalidation"/>
+        <property schema="kc_emailaddress"/>
+        <property schema="kc_emailaddress2"/>
+        <property schema="kc_factsellout"/>
+        <property schema="kc_facttotalsellinskl"/>
+        <property schema="kc_facttotalselloutskl"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_isdistributioncenter"/>
+        <property schema="kc_kc_pricesegmentcode_l"/>
+        <property schema="kc_kc_statuscode_l"/>
+        <property schema="kc_latitude"/>
+        <property schema="kc_longitude"/>
+        <property schema="kc_name"/>
+        <property schema="kc_officephone"/>
+        <property schema="kc_onlinestore"/>
+        <property schema="kc_originatingleadid"/>
+        <property schema="kc_otherphone"/>
+        <property schema="kc_planfactsku"/>
+        <property schema="kc_plantotalselloutskl"/>
+        <property schema="kc_pricesegmentcode"/>
+        <property schema="kc_ratedsalevolumesellout"/>
+        <property schema="kc_regionid"/>
+        <property schema="kc_send1c"/>
+        <property schema="kc_shareofaccount"/>
+        <property schema="kc_statuscode"/>
+        <property schema="kc_storeid"/>
+        <property schema="kc_storetypeid"/>
+        <property schema="kc_telephone"/>
+        <property schema="kc_totalareastore"/>
+        <property schema="kc_totalpotentialsellinskl"/>
+        <property schema="kc_validationuserid"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_store_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_kc_accountid" issystem="true">
+          <fields>
+            <field schema="kc_accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_kc_businessunitid" issystem="true">
+          <fields>
+            <field schema="kc_businessunitid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_kc_originatingleadid" issystem="true">
+          <fields>
+            <field schema="kc_originatingleadid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_kc_regionid" issystem="true">
+          <fields>
+            <field schema="kc_regionid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_kc_storetypeid" issystem="true">
+          <fields>
+            <field schema="kc_storetypeid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_kc_validationuserid" issystem="true">
+          <fields>
+            <field schema="kc_validationuserid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_store_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="kc_typestore" haslabels="true">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_name"/>
+        <property schema="kc_typestoreid"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="organizationid"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_kc_typestore_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_typestore_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_typestore_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_typestore_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_typestore_organizationid" issystem="true">
+          <fields>
+            <field schema="organizationid"/>
+          </fields>
+        </index>
+        <index schema="idx_kc_typestore_kc_name" issystem="true">
+          <fields>
+            <field schema="kc_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="lead" permissions="512" haslabels="true" xattr="512">
+      <properties>
+        <property schema="accountid"/>
+        <property schema="address1_addressid"/>
+        <property schema="address1_addresstypecode"/>
+        <property schema="address1_city"/>
+        <property schema="address1_composite"/>
+        <property schema="address1_country"/>
+        <property schema="address1_county"/>
+        <property schema="address1_fax"/>
+        <property schema="address1_latitude"/>
+        <property schema="address1_line1"/>
+        <property schema="address1_line2"/>
+        <property schema="address1_line3"/>
+        <property schema="address1_longitude"/>
+        <property schema="address1_name"/>
+        <property schema="address1_postalcode"/>
+        <property schema="address1_postofficebox"/>
+        <property schema="address1_shippingmethodcode"/>
+        <property schema="address1_stateorprovince"/>
+        <property schema="address1_telephone1"/>
+        <property schema="address1_telephone2"/>
+        <property schema="address1_telephone3"/>
+        <property schema="address1_upszone"/>
+        <property schema="address1_utcoffset"/>
+        <property schema="address2_addressid"/>
+        <property schema="address2_addresstypecode"/>
+        <property schema="address2_city"/>
+        <property schema="address2_composite"/>
+        <property schema="address2_country"/>
+        <property schema="address2_county"/>
+        <property schema="address2_fax"/>
+        <property schema="address2_latitude"/>
+        <property schema="address2_line1"/>
+        <property schema="address2_line2"/>
+        <property schema="address2_line3"/>
+        <property schema="address2_longitude"/>
+        <property schema="address2_name"/>
+        <property schema="address2_postalcode"/>
+        <property schema="address2_postofficebox"/>
+        <property schema="address2_shippingmethodcode"/>
+        <property schema="address2_stateorprovince"/>
+        <property schema="address2_telephone1"/>
+        <property schema="address2_telephone2"/>
+        <property schema="address2_telephone3"/>
+        <property schema="address2_upszone"/>
+        <property schema="address2_utcoffset"/>
+        <property schema="budgetamount"/>
+        <property schema="budgetamount_base"/>
+        <property schema="budgetstatus"/>
+        <property schema="campaignid"/>
+        <property schema="companyname"/>
+        <property schema="confirminterest"/>
+        <property schema="contactid"/>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="customerid"/>
+        <property schema="decisionmaker"/>
+        <property schema="description"/>
+        <property schema="donotbulkemail"/>
+        <property schema="donotemail"/>
+        <property schema="donotfax"/>
+        <property schema="donotphone"/>
+        <property schema="donotpostalmail"/>
+        <property schema="donotsendmm"/>
+        <property schema="emailaddress1"/>
+        <property schema="emailaddress2"/>
+        <property schema="emailaddress3"/>
+        <property schema="entityimage"/>
+        <property schema="entityimageid"/>
+        <property schema="estimatedamount"/>
+        <property schema="estimatedamount_base"/>
+        <property schema="estimatedclosedate"/>
+        <property schema="estimatedvalue"/>
+        <property schema="evaluatefit"/>
+        <property schema="exchangerate"/>
+        <property schema="fax"/>
+        <property schema="firstname"/>
+        <property schema="followemail"/>
+        <property schema="fullname"/>
+        <property schema="importsequencenumber"/>
+        <property schema="industrycode"/>
+        <property schema="initialcommunication"/>
+        <property schema="jobtitle"/>
+        <property schema="kc_accountworkcode"/>
+        <property schema="kc_additionalnumber"/>
+        <property schema="kc_address1"/>
+        <property schema="kc_address10"/>
+        <property schema="kc_address2"/>
+        <property schema="kc_address3"/>
+        <property schema="kc_address4"/>
+        <property schema="kc_address5"/>
+        <property schema="kc_address6"/>
+        <property schema="kc_address7"/>
+        <property schema="kc_address8"/>
+        <property schema="kc_address9"/>
+        <property schema="kc_addressoffice"/>
+        <property schema="kc_businessunitid" fieldpermissions="Read"/>
+        <property schema="kc_channelsalescode"/>
+        <property schema="kc_commenttolead"/>
+        <property schema="kc_countryid" fieldpermissions="Read"/>
+        <property schema="kc_dadatacountry"/>
+        <property schema="kc_dadataregion"/>
+        <property schema="kc_dateplanned"/>
+        <property schema="kc_namecounterparty"/>
+        <property schema="kc_namenotfoundsupplier"/>
+        <property schema="kc_namesupplierid"/>
+        <property schema="kc_onlinestore"/>
+        <property schema="kc_onlinestore2"/>
+        <property schema="kc_onlinestore3"/>
+        <property schema="kc_ownerid" fieldpermissions="Read"/>
+        <property schema="kc_plumbingandaccessoriescode"/>
+        <property schema="kc_productiddsormilardocode"/>
+        <property schema="kc_producttvkcode"/>
+        <property schema="kc_quantityonlinestore"/>
+        <property schema="kc_quantitystore"/>
+        <property schema="kc_regionid" fieldpermissions="Read"/>
+        <property schema="kc_saledirectioncode" fieldpermissions="Read"/>
+        <property schema="lastname"/>
+        <property schema="lastonholdtime"/>
+        <property schema="lastusedincampaign"/>
+        <property schema="leadid"/>
+        <property schema="leadqualitycode"/>
+        <property schema="leadsourcecode"/>
+        <property schema="masterid"/>
+        <property schema="merged"/>
+        <property schema="middlename"/>
+        <property schema="mobilephone"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="msdyn_gdproptout"/>
+        <property schema="need"/>
+        <property schema="numberofemployees"/>
+        <property schema="onholdtime"/>
+        <property schema="originatingcaseid"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid" fieldpermissions="Read"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="pager"/>
+        <property schema="parentaccountid" fieldpermissions="Read Update"/>
+        <property schema="parentcontactid"/>
+        <property schema="participatesinworkflow"/>
+        <property schema="preferredcontactmethodcode"/>
+        <property schema="prioritycode"/>
+        <property schema="processid"/>
+        <property schema="purchaseprocess"/>
+        <property schema="purchasetimeframe"/>
+        <property schema="qualificationcomments"/>
+        <property schema="qualifyingopportunityid"/>
+        <property schema="relatedobjectid"/>
+        <property schema="revenue"/>
+        <property schema="revenue_base"/>
+        <property schema="salesstage"/>
+        <property schema="salesstagecode"/>
+        <property schema="salutation"/>
+        <property schema="schedulefollowup_prospect"/>
+        <property schema="schedulefollowup_qualify"/>
+        <property schema="sic"/>
+        <property schema="slaid"/>
+        <property schema="slainvokedid"/>
+        <property schema="stageid"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="subject"/>
+        <property schema="telephone1"/>
+        <property schema="telephone2"/>
+        <property schema="telephone3"/>
+        <property schema="timespentbymeonemailandmeetings"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="transactioncurrencyid"/>
+        <property schema="traversedpath"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+        <property schema="websiteurl"/>
+        <property schema="yomicompanyname"/>
+        <property schema="yomifirstname"/>
+        <property schema="yomifullname"/>
+        <property schema="yomilastname"/>
+        <property schema="yomimiddlename"/>
+      </properties>
+      <indexes>
+        <index schema="idx_lead_accountid" issystem="true">
+          <fields>
+            <field schema="accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_campaignid" issystem="true">
+          <fields>
+            <field schema="campaignid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_contactid" issystem="true">
+          <fields>
+            <field schema="contactid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_customerid" issystem="true">
+          <fields>
+            <field schema="customerid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_kc_businessunitid" issystem="true">
+          <fields>
+            <field schema="kc_businessunitid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_kc_countryid" issystem="true">
+          <fields>
+            <field schema="kc_countryid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_kc_namesupplierid" issystem="true">
+          <fields>
+            <field schema="kc_namesupplierid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_kc_ownerid" issystem="true">
+          <fields>
+            <field schema="kc_ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_kc_regionid" issystem="true">
+          <fields>
+            <field schema="kc_regionid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_masterid" issystem="true">
+          <fields>
+            <field schema="masterid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_originatingcaseid" issystem="true">
+          <fields>
+            <field schema="originatingcaseid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_parentaccountid" issystem="true">
+          <fields>
+            <field schema="parentaccountid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_parentcontactid" issystem="true">
+          <fields>
+            <field schema="parentcontactid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_qualifyingopportunityid" issystem="true">
+          <fields>
+            <field schema="qualifyingopportunityid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_relatedobjectid" issystem="true">
+          <fields>
+            <field schema="relatedobjectid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_slaid" issystem="true">
+          <fields>
+            <field schema="slaid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_slainvokedid" issystem="true">
+          <fields>
+            <field schema="slainvokedid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_lead_fullname" issystem="true">
+          <fields>
+            <field schema="fullname"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="phonecall" permissions="512" haslabels="true" xattr="512">
+      <properties>
+        <property schema="activityadditionalparams"/>
+        <property schema="activityid"/>
+        <property schema="activitytypecode"/>
+        <property schema="actualdurationminutes"/>
+        <property schema="actualend"/>
+        <property schema="actualstart"/>
+        <property schema="category"/>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="description"/>
+        <property schema="directioncode"/>
+        <property schema="exchangerate"/>
+        <property schema="from"/>
+        <property schema="importsequencenumber"/>
+        <property schema="isbilled"/>
+        <property schema="isregularactivity"/>
+        <property schema="isworkflowcreated"/>
+        <property schema="kc_resultofcallcode"/>
+        <property schema="lastonholdtime"/>
+        <property schema="leftvoicemail"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="onholdtime"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="phonenumber"/>
+        <property schema="prioritycode"/>
+        <property schema="processid"/>
+        <property schema="regardingobjectid"/>
+        <property schema="scheduleddurationminutes"/>
+        <property schema="scheduledend"/>
+        <property schema="scheduledstart"/>
+        <property schema="serviceid"/>
+        <property schema="slaid"/>
+        <property schema="slainvokedid"/>
+        <property schema="sortdate"/>
+        <property schema="stageid"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="subcategory"/>
+        <property schema="subject"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="to"/>
+        <property schema="transactioncurrencyid"/>
+        <property schema="traversedpath"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_phonecall_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_regardingobjectid" issystem="true">
+          <fields>
+            <field schema="regardingobjectid"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_serviceid" issystem="true">
+          <fields>
+            <field schema="serviceid"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_slaid" issystem="true">
+          <fields>
+            <field schema="slaid"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_slainvokedid" issystem="true">
+          <fields>
+            <field schema="slainvokedid"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_subject" issystem="true">
+          <fields>
+            <field schema="subject"/>
+          </fields>
+        </index>
+        <index schema="idx_phonecall_scheduledend" issystem="true">
+          <fields>
+            <field schema="scheduledend"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="pricelevel">
+      <properties>
+        <property schema="begindate"/>
+        <property schema="createdon"/>
+        <property schema="enddate"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="pricelevelid"/>
+        <property schema="transactioncurrencyid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_pricelevel_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_pricelevel_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="product" haslabels="true">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdbyexternalparty"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="currentcost"/>
+        <property schema="currentcost_base"/>
+        <property schema="defaultuomid"/>
+        <property schema="defaultuomscheduleid"/>
+        <property schema="description"/>
+        <property schema="entityimage"/>
+        <property schema="entityimageid"/>
+        <property schema="exchangerate"/>
+        <property schema="hierarchypath"/>
+        <property schema="importsequencenumber"/>
+        <property schema="iskit"/>
+        <property schema="isstockitem"/>
+        <property schema="kc_analogueproductid"/>
+        <property schema="kc_annotation"/>
+        <property schema="kc_arc"/>
+        <property schema="kc_barcode" displayformat="Barcode"/>
+        <property schema="kc_brandnameid"/>
+        <property schema="kc_channelsalescode"/>
+        <property schema="kc_code1c"/>
+        <property schema="kc_collectioncode"/>
+        <property schema="kc_collectionid"/>
+        <property schema="kc_designofdoorcode"/>
+        <property schema="kc_diameterhead"/>
+        <property schema="kc_diameterupperhead"/>
+        <property schema="kc_expectedarrivaldate"/>
+        <property schema="kc_formofdoorcode"/>
+        <property schema="kc_formofpalletcode"/>
+        <property schema="kc_formofshowercabincode"/>
+        <property schema="kc_guaranteeperiod"/>
+        <property schema="kc_hpv"/>
+        <property schema="kc_id1c"/>
+        <property schema="kc_issoapdish"/>
+        <property schema="kc_linkcertificate"/>
+        <property schema="kc_linkfoto"/>
+        <property schema="kc_linkinstuction"/>
+        <property schema="kc_linkscheme"/>
+        <property schema="kc_linkvideo"/>
+        <property schema="kc_linkwebsite"/>
+        <property schema="kc_ownerproduct"/>
+        <property schema="kc_plandateofreceipt"/>
+        <property schema="kc_pricegroupid"/>
+        <property schema="kc_productcategoryid"/>
+        <property schema="kc_productgroupid"/>
+        <property schema="kc_productrangeid"/>
+        <property schema="kc_productsize"/>
+        <property schema="kc_quantitymodehead"/>
+        <property schema="kc_recommendation"/>
+        <property schema="kc_remodelproductid"/>
+        <property schema="kc_rrc"/>
+        <property schema="kc_sklpricesegmentcode"/>
+        <property schema="kc_statusproductcode"/>
+        <property schema="kc_switchingofheadcode"/>
+        <property schema="kc_typeconstructionid"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedbyexternalparty"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="name"/>
+        <property schema="organizationid"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="parentproductid"/>
+        <property schema="price"/>
+        <property schema="price_base"/>
+        <property schema="pricelevelid"/>
+        <property schema="processid"/>
+        <property schema="productid"/>
+        <property schema="productnumber" displayformat="Barcode"/>
+        <property schema="productstructure"/>
+        <property schema="producttypecode"/>
+        <property schema="producturl"/>
+        <property schema="quantitydecimal"/>
+        <property schema="quantityonhand"/>
+        <property schema="size"/>
+        <property schema="stageid"/>
+        <property schema="standardcost"/>
+        <property schema="standardcost_base"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="stockvolume"/>
+        <property schema="stockweight"/>
+        <property schema="subjectid"/>
+        <property schema="suppliername"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="transactioncurrencyid"/>
+        <property schema="traversedpath"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="validfromdate"/>
+        <property schema="validtodate"/>
+        <property schema="vendorid"/>
+        <property schema="vendorname"/>
+        <property schema="vendorpartnumber"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_product_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_product_createdbyexternalparty" issystem="true">
+          <fields>
+            <field schema="createdbyexternalparty"/>
+          </fields>
+        </index>
+        <index schema="idx_product_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_product_defaultuomid" issystem="true">
+          <fields>
+            <field schema="defaultuomid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_defaultuomscheduleid" issystem="true">
+          <fields>
+            <field schema="defaultuomscheduleid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_kc_analogueproductid" issystem="true">
+          <fields>
+            <field schema="kc_analogueproductid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_kc_brandnameid" issystem="true">
+          <fields>
+            <field schema="kc_brandnameid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_kc_collectionid" issystem="true">
+          <fields>
+            <field schema="kc_collectionid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_kc_pricegroupid" issystem="true">
+          <fields>
+            <field schema="kc_pricegroupid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_kc_productcategoryid" issystem="true">
+          <fields>
+            <field schema="kc_productcategoryid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_kc_productgroupid" issystem="true">
+          <fields>
+            <field schema="kc_productgroupid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_kc_productrangeid" issystem="true">
+          <fields>
+            <field schema="kc_productrangeid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_kc_remodelproductid" issystem="true">
+          <fields>
+            <field schema="kc_remodelproductid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_kc_typeconstructionid" issystem="true">
+          <fields>
+            <field schema="kc_typeconstructionid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_product_modifiedbyexternalparty" issystem="true">
+          <fields>
+            <field schema="modifiedbyexternalparty"/>
+          </fields>
+        </index>
+        <index schema="idx_product_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_product_organizationid" issystem="true">
+          <fields>
+            <field schema="organizationid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_parentproductid" issystem="true">
+          <fields>
+            <field schema="parentproductid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_pricelevelid" issystem="true">
+          <fields>
+            <field schema="pricelevelid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_subjectid" issystem="true">
+          <fields>
+            <field schema="subjectid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_product_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="productpricelevel">
+      <properties>
+        <property schema="amount"/>
+        <property schema="createdon"/>
+        <property schema="discounttypeid"/>
+        <property schema="modifiedon"/>
+        <property schema="percentage"/>
+        <property schema="pricelevelid"/>
+        <property schema="pricingmethodcode"/>
+        <property schema="productid"/>
+        <property schema="productpricelevelid"/>
+        <property schema="quantitysellingcode"/>
+        <property schema="roundingoptionamount"/>
+        <property schema="roundingoptioncode"/>
+        <property schema="roundingpolicycode"/>
+        <property schema="transactioncurrencyid"/>
+        <property schema="uomid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_productpricelevel_discounttypeid" issystem="true">
+          <fields>
+            <field schema="discounttypeid"/>
+          </fields>
+        </index>
+        <index schema="idx_productpricelevel_pricelevelid" issystem="true">
+          <fields>
+            <field schema="pricelevelid"/>
+          </fields>
+        </index>
+        <index schema="idx_productpricelevel_productid" issystem="true">
+          <fields>
+            <field schema="productid"/>
+          </fields>
+        </index>
+        <index schema="idx_productpricelevel_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_productpricelevel_uomid" issystem="true">
+          <fields>
+            <field schema="uomid"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="quote">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="customerid"/>
+        <property schema="discountamount"/>
+        <property schema="discountpercentage"/>
+        <property schema="expireson"/>
+        <property schema="freightamount"/>
+        <property schema="freighttermscode"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="opportunityid"/>
+        <property schema="ownerid"/>
+        <property schema="pricelevelid"/>
+        <property schema="quoteid"/>
+        <property schema="shipto_city"/>
+        <property schema="shipto_country"/>
+        <property schema="shipto_line1"/>
+        <property schema="shipto_line2"/>
+        <property schema="shipto_line3"/>
+        <property schema="shipto_postalcode"/>
+        <property schema="shipto_stateorprovince"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="totalamount"/>
+        <property schema="transactioncurrencyid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_quote_customerid" issystem="true">
+          <fields>
+            <field schema="customerid"/>
+          </fields>
+        </index>
+        <index schema="idx_quote_opportunityid" issystem="true">
+          <fields>
+            <field schema="opportunityid"/>
+          </fields>
+        </index>
+        <index schema="idx_quote_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_quote_pricelevelid" issystem="true">
+          <fields>
+            <field schema="pricelevelid"/>
+          </fields>
+        </index>
+        <index schema="idx_quote_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_quote_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="quotedetail">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="extendedamount"/>
+        <property schema="ispriceoverridden"/>
+        <property schema="isproductoverridden"/>
+        <property schema="manualdiscountamount"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="priceperunit"/>
+        <property schema="productdescription"/>
+        <property schema="productid"/>
+        <property schema="quantity"/>
+        <property schema="quotedetailid"/>
+        <property schema="quotedetailname"/>
+        <property schema="quoteid"/>
+        <property schema="tax"/>
+        <property schema="transactioncurrencyid"/>
+        <property schema="uomid"/>
+        <property schema="volumediscountamount"/>
+      </properties>
+      <indexes>
+        <index schema="idx_quotedetail_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_quotedetail_productid" issystem="true">
+          <fields>
+            <field schema="productid"/>
+          </fields>
+        </index>
+        <index schema="idx_quotedetail_quoteid" issystem="true">
+          <fields>
+            <field schema="quoteid"/>
+          </fields>
+        </index>
+        <index schema="idx_quotedetail_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_quotedetail_uomid" issystem="true">
+          <fields>
+            <field schema="uomid"/>
+          </fields>
+        </index>
+        <index schema="idx_quotedetail_quotedetailname" issystem="true">
+          <fields>
+            <field schema="quotedetailname"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_contact">
+      <properties>
+        <property schema="address1_city"/>
+        <property schema="address1_country"/>
+        <property schema="address1_line1"/>
+        <property schema="address1_postalcode"/>
+        <property schema="address1_stateorprovince"/>
+        <property schema="companyname"/>
+        <property schema="contactid"/>
+        <property schema="emailaddress1"/>
+        <property schema="fax"/>
+        <property schema="firstname"/>
+        <property schema="fullname"/>
+        <property schema="jobtitle"/>
+        <property schema="lastname"/>
+        <property schema="mobilephone"/>
+        <property schema="resco_externalid"/>
+        <property schema="resco_source"/>
+        <property schema="telephone1"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_contact_fullname" issystem="true">
+          <fields>
+            <field schema="fullname"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_devicecontrol">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="resco_devicecontrolid"/>
+        <property schema="resco_deviceid"/>
+        <property schema="resco_entityname"/>
+        <property schema="resco_mobiledeviceid"/>
+        <property schema="resco_recordid"/>
+        <property schema="resco_requestdata"/>
+        <property schema="resco_requesttype"/>
+        <property schema="resco_responsecode"/>
+        <property schema="resco_responsedata"/>
+        <property schema="resco_responsedata1"/>
+        <property schema="resco_responsedata2"/>
+        <property schema="resco_responsedata3"/>
+        <property schema="resco_responsedata4"/>
+        <property schema="resco_responsedata5"/>
+        <property schema="resco_responsedata6"/>
+        <property schema="resco_responsedata7"/>
+        <property schema="resco_responsedata8"/>
+        <property schema="resco_responsedata9"/>
+        <property schema="resco_responsedatalength"/>
+        <property schema="resco_responsestatus"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_devicecontrol_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_resco_mobiledeviceid" issystem="true">
+          <fields>
+            <field schema="resco_mobiledeviceid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_resco_deviceid" issystem="true">
+          <fields>
+            <field schema="resco_deviceid"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_email">
+      <properties>
+        <property schema="resco_activityid"/>
+        <property schema="resco_error"/>
+        <property schema="resco_flags"/>
+        <property schema="resco_historyid"/>
+        <property schema="resco_modified"/>
+        <property schema="resco_movefolderid"/>
+        <property schema="resco_unread"/>
+      </properties>
+    </entity>
+    <entity schema="resco_favorite">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="resco_favoriteid"/>
+        <property schema="resco_name"/>
+        <property schema="resco_recordid"/>
+        <property schema="resco_target"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_favorite_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_favorite_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_favorite_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_favorite_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_favorite_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_favorite_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_favorite_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_favorite_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_favorite_resco_name" issystem="true">
+          <fields>
+            <field schema="resco_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_folder">
+      <properties>
+        <property schema="resco_class"/>
+        <property schema="resco_displayname"/>
+        <property schema="resco_folderid"/>
+        <property schema="resco_id"/>
+        <property schema="resco_parentid"/>
+        <property schema="resco_source"/>
+        <property schema="resco_sourceid"/>
+        <property schema="resco_syncstate"/>
+        <property schema="resco_synctype"/>
+      </properties>
+    </entity>
+    <entity schema="resco_folderitem">
+      <properties>
+        <property schema="resco_entityname"/>
+        <property schema="resco_folderid"/>
+        <property schema="resco_folderitemid"/>
+        <property schema="resco_itemid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_folderitem_resco_folderid" issystem="true">
+          <fields>
+            <field schema="resco_folderid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_folderitem_resco_itemid" issystem="true">
+          <fields>
+            <field schema="resco_itemid"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_mobileaudit">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="createdonbehalfby"/>
+        <property schema="importsequencenumber"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="modifiedonbehalfby"/>
+        <property schema="overriddencreatedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="owningteam"/>
+        <property schema="owninguser"/>
+        <property schema="resco_description"/>
+        <property schema="resco_deviceid"/>
+        <property schema="resco_entityid"/>
+        <property schema="resco_entityname"/>
+        <property schema="resco_externaluserid"/>
+        <property schema="resco_latitude"/>
+        <property schema="resco_loggedon"/>
+        <property schema="resco_longitude"/>
+        <property schema="resco_mobileauditid"/>
+        <property schema="resco_operation"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="timezoneruleversionnumber"/>
+        <property schema="utcconversiontimezonecode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_mobileaudit_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobileaudit_createdonbehalfby" issystem="true">
+          <fields>
+            <field schema="createdonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobileaudit_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobileaudit_modifiedonbehalfby" issystem="true">
+          <fields>
+            <field schema="modifiedonbehalfby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobileaudit_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobileaudit_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobileaudit_owningteam" issystem="true">
+          <fields>
+            <field schema="owningteam"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobileaudit_owninguser" issystem="true">
+          <fields>
+            <field schema="owninguser"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobileaudit_resco_entityname" issystem="true">
+          <fields>
+            <field schema="resco_entityname"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_mobilereport">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="resco_data"/>
+        <property schema="resco_entityname"/>
+        <property schema="resco_languagecode"/>
+        <property schema="resco_mobilereportid"/>
+        <property schema="resco_name"/>
+        <property schema="resco_sourcetype"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_mobilereport_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobilereport_resco_name" issystem="true">
+          <fields>
+            <field schema="resco_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_question">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="resco_answeredon"/>
+        <property schema="resco_answerstorage"/>
+        <property schema="resco_defaultvalue"/>
+        <property schema="resco_description"/>
+        <property schema="resco_displayformat"/>
+        <property schema="resco_icon"/>
+        <property schema="resco_index"/>
+        <property schema="resco_isseparator"/>
+        <property schema="resco_kind"/>
+        <property schema="resco_label"/>
+        <property schema="resco_max"/>
+        <property schema="resco_min"/>
+        <property schema="resco_name"/>
+        <property schema="resco_options"/>
+        <property schema="resco_precision"/>
+        <property schema="resco_questiongroupid"/>
+        <property schema="resco_questionid"/>
+        <property schema="resco_questionnaireid"/>
+        <property schema="resco_rawdatevalue"/>
+        <property schema="resco_rawidvalue"/>
+        <property schema="resco_rawnumericvalue"/>
+        <property schema="resco_required"/>
+        <property schema="resco_showonreport"/>
+        <property schema="resco_style"/>
+        <property schema="resco_value"/>
+        <property schema="resco_valuelabel"/>
+        <property schema="resco_visible"/>
+        <property schema="statuscode"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_question_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_question_resco_questiongroupid" issystem="true">
+          <fields>
+            <field schema="resco_questiongroupid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_question_resco_questionnaireid" issystem="true">
+          <fields>
+            <field schema="resco_questionnaireid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_question_resco_name" issystem="true">
+          <fields>
+            <field schema="resco_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_questiongroup">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="resco_description"/>
+        <property schema="resco_expanded"/>
+        <property schema="resco_index"/>
+        <property schema="resco_label"/>
+        <property schema="resco_name"/>
+        <property schema="resco_questiongroupid"/>
+        <property schema="resco_questionnaireid"/>
+        <property schema="resco_repeatconfig"/>
+        <property schema="resco_repeatindex"/>
+        <property schema="resco_rules"/>
+        <property schema="resco_templategroupid"/>
+        <property schema="resco_visible"/>
+        <property schema="statuscode"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_questiongroup_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_questiongroup_resco_questionnaireid" issystem="true">
+          <fields>
+            <field schema="resco_questionnaireid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_questiongroup_resco_templategroupid" issystem="true">
+          <fields>
+            <field schema="resco_templategroupid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_questiongroup_resco_name" issystem="true">
+          <fields>
+            <field schema="resco_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_questionnaire">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="resco_completionstatus"/>
+        <property schema="resco_description"/>
+        <property schema="resco_folder"/>
+        <property schema="resco_issnippet"/>
+        <property schema="resco_istemplate"/>
+        <property schema="resco_langaugecode"/>
+        <property schema="resco_languagecode"/>
+        <property schema="resco_name"/>
+        <property schema="resco_options"/>
+        <property schema="resco_questionnaireid"/>
+        <property schema="resco_rules"/>
+        <property schema="resco_script"/>
+        <property schema="resco_serializedanswers"/>
+        <property schema="resco_styles"/>
+        <property schema="resco_templateid"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_questionnaire_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_questionnaire_resco_templateid" issystem="true">
+          <fields>
+            <field schema="resco_templateid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_questionnaire_resco_name" issystem="true">
+          <fields>
+            <field schema="resco_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_sharepointdoc">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="modifiedon"/>
+        <property schema="resco_filename"/>
+        <property schema="resco_filesize"/>
+        <property schema="resco_lastmodified"/>
+        <property schema="resco_name"/>
+        <property schema="resco_regardingid"/>
+        <property schema="resco_relativepath"/>
+        <property schema="resco_revision"/>
+        <property schema="resco_sharepointdocid"/>
+        <property schema="resco_siteid"/>
+        <property schema="resco_source"/>
+        <property schema="resco_uniqueid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_sharepointdoc_resco_regardingid" issystem="true">
+          <fields>
+            <field schema="resco_regardingid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_sharepointdoc_resco_name" issystem="true">
+          <fields>
+            <field schema="resco_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="salesorder">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="customerid"/>
+        <property schema="discountamount"/>
+        <property schema="discountpercentage"/>
+        <property schema="freightamount"/>
+        <property schema="freighttermscode"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="opportunityid"/>
+        <property schema="ownerid"/>
+        <property schema="pricelevelid"/>
+        <property schema="quoteid"/>
+        <property schema="salesorderid"/>
+        <property schema="shipto_city"/>
+        <property schema="shipto_country"/>
+        <property schema="shipto_line1"/>
+        <property schema="shipto_line2"/>
+        <property schema="shipto_line3"/>
+        <property schema="shipto_postalcode"/>
+        <property schema="shipto_stateorprovince"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="totalamount"/>
+        <property schema="transactioncurrencyid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_salesorder_customerid" issystem="true">
+          <fields>
+            <field schema="customerid"/>
+          </fields>
+        </index>
+        <index schema="idx_salesorder_opportunityid" issystem="true">
+          <fields>
+            <field schema="opportunityid"/>
+          </fields>
+        </index>
+        <index schema="idx_salesorder_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_salesorder_pricelevelid" issystem="true">
+          <fields>
+            <field schema="pricelevelid"/>
+          </fields>
+        </index>
+        <index schema="idx_salesorder_quoteid" issystem="true">
+          <fields>
+            <field schema="quoteid"/>
+          </fields>
+        </index>
+        <index schema="idx_salesorder_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_salesorder_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="subject">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="description"/>
+        <property schema="modifiedon"/>
+        <property schema="parentsubject"/>
+        <property schema="subjectid"/>
+        <property schema="title"/>
+      </properties>
+      <indexes>
+        <index schema="idx_subject_parentsubject" issystem="true">
+          <fields>
+            <field schema="parentsubject"/>
+          </fields>
+        </index>
+        <index schema="idx_subject_title" issystem="true">
+          <fields>
+            <field schema="title"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="systemuser">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="fullname"/>
+        <property schema="internalemailaddress"/>
+        <property schema="modifiedon"/>
+        <property schema="systemuserid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_systemuser_fullname" issystem="true">
+          <fields>
+            <field schema="fullname"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="task" permissions="512" haslabels="true" xattr="512">
+      <properties>
+        <property schema="activityid"/>
+        <property schema="actualdurationminutes"/>
+        <property schema="createdon"/>
+        <property schema="description"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="prioritycode"/>
+        <property schema="regardingobjectid"/>
+        <property schema="scheduledend"/>
+        <property schema="scheduledstart"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="subject"/>
+      </properties>
+      <indexes>
+        <index schema="idx_task_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_task_regardingobjectid" issystem="true">
+          <fields>
+            <field schema="regardingobjectid"/>
+          </fields>
+        </index>
+        <index schema="idx_task_subject" issystem="true">
+          <fields>
+            <field schema="subject"/>
+          </fields>
+        </index>
+        <index schema="idx_task_scheduledend" issystem="true">
+          <fields>
+            <field schema="scheduledend"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="template">
+      <properties>
+        <property schema="body"/>
+        <property schema="createdon"/>
+        <property schema="description"/>
+        <property schema="languagecode"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="presentationxml"/>
+        <property schema="subject"/>
+        <property schema="subjectpresentationxml"/>
+        <property schema="templateid"/>
+        <property schema="title"/>
+      </properties>
+      <indexes>
+        <index schema="idx_template_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_template_title" issystem="true">
+          <fields>
+            <field schema="title"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="transactioncurrency" class="false">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="currencyname"/>
+        <property schema="currencyprecision"/>
+        <property schema="currencysymbol"/>
+        <property schema="isocurrencycode"/>
+        <property schema="modifiedon"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="transactioncurrencyid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_transactioncurrency_currencyname" issystem="true">
+          <fields>
+            <field schema="currencyname"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="uom">
+      <properties>
+        <property schema="baseuom"/>
+        <property schema="createdon"/>
+        <property schema="isschedulebaseuom"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="quantity"/>
+        <property schema="uomid"/>
+        <property schema="uomscheduleid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_uom_baseuom" issystem="true">
+          <fields>
+            <field schema="baseuom"/>
+          </fields>
+        </index>
+        <index schema="idx_uom_uomscheduleid" issystem="true">
+          <fields>
+            <field schema="uomscheduleid"/>
+          </fields>
+        </index>
+        <index schema="idx_uom_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="uomschedule" class="false">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="uomscheduleid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_uomschedule_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+  </entities>
+  <home>@Search;;&lt;extra&gt;&lt;actions&gt;0;0;1&lt;/actions&gt;&lt;/extra&gt;</home>
+  <home>@Favorites</home>
+  <home>lead</home>
+  <home>account</home>
+  <home>@Dashboard;;DashboardForm</home>
+  <home>#Planning</home>
+  <home>@Map;;Map</home>
+  <home>@Tourplan;;Tourplan</home>
+  <home>@RoutePlan;;RoutePlan</home>
+  <home>##</home>
+  <home>@activity</home>
+  <home>appointment</home>
+  <home>contact</home>
+  <home>product</home>
+  <home>@Hub;;Sales</home>
+  <home>quote</home>
+  <home>salesorder</home>
+  <home>@CallImport</home>
+  <home>@Setup</home>
+  <home>@About</home>
+  <home>resco_questionnaire;;&lt;extra&gt;&lt;views&gt;resco_questionnaire.Answered Questionnaires&lt;/views&gt;&lt;actions&gt;0;0;1&lt;/actions&gt;&lt;/extra&gt;</home>
+  <home>@@Опросы;file://pollIndex.html</home>
+</model>

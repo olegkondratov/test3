@@ -1,0 +1,65 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="3" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>salesorder</EntityName>
+  <CamelCase>SalesOrder</CamelCase>
+  <PrimaryCommands>GetProducts|||ChangeState||2;3|Delete|||PrintReport|||Favorite|||EmailLink|||RunMobileReport||</PrimaryCommands>
+  <SharedVariableNames/>
+  <ClassBinding/>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="customerid"/>
+        <DetailItem SchemaName="name"/>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="transactioncurrencyid"/>
+        <DetailItem SchemaName="pricelevelid"/>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="totalamount"/>
+        <DetailItem SchemaName="discountamount"/>
+        <DetailItem SchemaName="discountpercentage"/>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="freightamount"/>
+        <DetailItem SchemaName="freighttermscode"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="DetailTab">
+      <Name>Ship</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="shipto_line1"/>
+        <DetailItem SchemaName="shipto_line2"/>
+        <DetailItem SchemaName="shipto_line3"/>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="shipto_city"/>
+        <DetailItem SchemaName="shipto_postalcode"/>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="shipto_stateorprovince"/>
+        <DetailItem SchemaName="shipto_country"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab" flexiHeight="1" DocCommands="0">
+      <Name>Activity List</Name>
+      <Binding SchemaName="activity.regardingobjectid"/>
+      <Views>appointment.All Appointments:appointment.My Appointments:appointment.My Completed Appointments:activity.*:activity.@Assoc Activities:task.All Tasks:task.My Tasks:phonecall.All Phone Calls:phonecall.My Completed Calls:phonecall.My Phone Calls:email.All Emails:email.Inbox:email.My Draft Emails:email.My Received Emails:email.My Sent Emails</Views>
+    </FormTab>
+    <FormTab xsi:type="SignatureTab" flexiHeight="1">
+      <Name>Signature</Name>
+      <Commands>4097</Commands>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab" flexiHeight="1" DocCommands="6">
+      <Name>Примечания List</Name>
+      <Binding SchemaName="annotation.objectid"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

@@ -1,0 +1,5 @@
+﻿#GPS;on
+#LogSync;on
+#LogAppState;on
+#TrackGpsChanges;off;600;500
+account;create

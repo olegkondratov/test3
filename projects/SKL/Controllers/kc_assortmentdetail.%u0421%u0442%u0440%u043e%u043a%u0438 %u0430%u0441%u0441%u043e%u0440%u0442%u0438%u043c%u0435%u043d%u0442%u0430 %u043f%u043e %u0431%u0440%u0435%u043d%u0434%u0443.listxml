@@ -1,0 +1,70 @@
+﻿<EntityList>
+  <Attributes>
+    <EntityName>kc_assortmentdetail</EntityName>
+    <CamelCase>kc_assortmentdetail</CamelCase>
+    <VisualStudioProjectId>00000000-0000-0000-0000-000000000000</VisualStudioProjectId>
+    <ClassBinding/>
+  </Attributes>
+  <Name>Строки ассортимента по бренду</Name>
+  <Kind>List</Kind>
+  <AutoWideWidth>0</AutoWideWidth>
+  <OrderBy>kc_brandnameid</OrderBy>
+  <SharedVariables>&lt;SharedVariables&gt;&lt;Variables&gt;&lt;/Variables&gt;&lt;/SharedVariables&gt;</SharedVariables>
+  <SerializedBindings>
+    <string>kc_brandnameid</string>
+    <string>kc_name</string>
+    <string>kc_quantityskubybrand</string>
+    <string>kc_isinstock</string>
+    <string>kc_assortmentdetailid</string>
+    <string>kc_productcategoryid</string>
+    <string>kc_selloutsklbrand</string>
+  </SerializedBindings>
+  <MaxColumns>0</MaxColumns>
+  <Fetch version="1.0">
+    <entity name="kc_assortmentdetail"/>
+  </Fetch>
+  <SerializedTemplates>
+    <RowTemplate>
+      <DesignWidth>320</DesignWidth>
+      <DesignHeight>48</DesignHeight>
+      <Name>Default</Name>
+      <Width>200</Width>
+      <Height>64</Height>
+      <SerializedChildren>
+        <CellTemplate SchemaName="kc_brandnameid">
+          <StyleName>primary</StyleName>
+          <Bounds>5,2,80,24</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>4</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="kc_selloutsklbrand">
+          <StyleName>gray_red</StyleName>
+          <Bounds>110,17,90,15</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>12</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="kc_quantityskubybrand">
+          <StyleName>gray_red</StyleName>
+          <Bounds>110,47,90,15</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>12</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="Sell-out, руб:">
+          <IsConstant>true</IsConstant>
+          <StyleName>gray_italic</StyleName>
+          <Bounds>110,2,90,15</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>12</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="Кол-во SKU:">
+          <IsConstant>true</IsConstant>
+          <StyleName>gray_italic</StyleName>
+          <Bounds>110,32,90,15</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>12</Anchor>
+        </CellTemplate>
+      </SerializedChildren>
+    </RowTemplate>
+  </SerializedTemplates>
+  <CustomProperties/>
+</EntityList>

@@ -1,0 +1,13 @@
+﻿<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0">
+  <Columns>2</Columns>
+  <Rows>2</Rows>
+  <Items>
+    <DashboardComponent xsi:type="DashboardEntityComponent" Kind="List" Binding="lead" Options="3">
+      <Bounds>1,1,1,1</Bounds>
+    </DashboardComponent>
+    <DashboardComponent xsi:type="DashboardEntityComponent" Kind="List" Binding="appointment;&lt;extra&gt;&lt;actions&gt;99;0;1&lt;/actions&gt;&lt;/extra&gt;" Options="3">
+      <Bounds>1,0,1,1</Bounds>
+      <LegacyConfig>appointment</LegacyConfig>
+    </DashboardComponent>
+  </Items>
+</Dashboard>

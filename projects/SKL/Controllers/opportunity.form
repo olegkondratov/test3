@@ -1,0 +1,56 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="3" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>opportunity</EntityName>
+  <CamelCase>Opportunity</CamelCase>
+  <WorkflowItemChanged>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;Workflow e="true" isvalid="true" syntaxVersion="7" version="0"&gt;&lt;branch e="true"&gt;&lt;if e="true"&gt;&lt;conditions e="true" op="And"&gt;&lt;condition e="false"&gt;&lt;var&gt;ChangedItem&lt;/var&gt;&lt;arg&gt;String:isrevenuesystemcalculated&lt;/arg&gt;&lt;op&gt;Equal&lt;/op&gt;&lt;/condition&gt;&lt;/conditions&gt;&lt;action e="true"&gt;&lt;function e="true"&gt;&lt;var&gt;Tabs.(opportunityproduct.opportunityid.opportunity).IsVisible&lt;/var&gt;&lt;arg&gt;var:Entity.isrevenuesystemcalculated&lt;/arg&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;/function&gt;&lt;function e="false"&gt;&lt;var&gt;Form.-REVENUE.IsVisible&lt;/var&gt;&lt;arg&gt;var:Entity.isrevenuesystemcalculated&lt;/arg&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;/function&gt;&lt;/action&gt;&lt;/if&gt;&lt;/branch&gt;&lt;/Workflow&gt;</WorkflowItemChanged>
+  <SharedVariables>&lt;SharedVariables&gt;&lt;Variables /&gt;&lt;/SharedVariables&gt;</SharedVariables>
+  <PrimaryCommands>WonOpportunity|||LostOpportunity|QuoteCloseEntity.CloseOpportunity||PrintReport|||Favorite|||Delete|||EmailLink||</PrimaryCommands>
+  <SharedVariableNames/>
+  <ClassBinding/>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab" flexiWidth="1">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="name"/>
+        <DetailItem SchemaName="customerid"/>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="transactioncurrencyid"/>
+        <DetailItem SchemaName="pricelevelid"/>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="isrevenuesystemcalculated"/>
+        <DetailItem SchemaName="estimatedvalue"/>
+        <DetailItem SchemaName="REVENUE" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="actualvalue"/>
+        <DetailItem SchemaName="actualclosedate"/>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="opportunityratingcode" Style="OpportunityRating"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab" flexiHeight="4" flexiWidth="1">
+      <Name>Продукты для возможных сделок List</Name>
+      <Binding SchemaName="opportunityproduct.opportunityid"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab" flexiHeight="1" flexiWidth="1">
+      <Name>Activity List</Name>
+      <Binding SchemaName="activity.regardingobjectid"/>
+      <Views>activity.*:activity.@Assoc Activities:appointment.My Appointments:appointment.All Appointments:appointment.My Completed Appointments:email.My Received Emails:email.My Sent Emails:email.My Draft Emails:email.All Emails:email.Inbox:phonecall.All Phone Calls:phonecall.My Phone Calls:phonecall.My Completed Calls:serviceappointment.*:task.All Tasks:task.My Tasks</Views>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab" flexiHeight="1">
+      <Name>Коммерческие предложения List</Name>
+      <Binding SchemaName="quote.opportunityid"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab" flexiHeight="1" DocCommands="6">
+      <Name>Примечания List</Name>
+      <Binding SchemaName="annotation.objectid"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

@@ -1,0 +1,1 @@
+﻿@Dashboard;;DashboardForm,@Tourplan;;Tourplan,lead;;<extra><views>lead.*:lead.@Now</views><actions>0;0;1</actions></extra>,#Клиент-ЮЛ-ТТ,@Search,account,kc_counterparty,kc_store,##,contact;;<extra><actions>224;0;1</actions></extra>,product;Продуктовый каталог,@Hub;;Sales,@Setup

@@ -1,0 +1,48 @@
+﻿<EntityList>
+  <Attributes>
+    <EntityName>kc_competitorinstore</EntityName>
+    <CamelCase>kc_competitorinstore</CamelCase>
+    <VisualStudioProjectId>00000000-0000-0000-0000-000000000000</VisualStudioProjectId>
+    <ClassBinding/>
+  </Attributes>
+  <Name>Конкуренты в ТТ</Name>
+  <Kind>List</Kind>
+  <AutoWideWidth>0</AutoWideWidth>
+  <OrderBy>kc_competitorid</OrderBy>
+  <SortAllowedFields>!</SortAllowedFields>
+  <FilterAllowedFields>!</FilterAllowedFields>
+  <SharedVariables>&lt;SharedVariables&gt;&lt;Variables&gt;&lt;/Variables&gt;&lt;/SharedVariables&gt;</SharedVariables>
+  <SerializedBindings>
+    <string>modifiedon</string>
+    <string>createdon</string>
+    <string>kc_name</string>
+    <string>kc_accountid</string>
+    <string>kc_competitorid</string>
+    <string>kc_competitorinstoreid</string>
+    <string>kc_productcategoryid</string>
+    <string>kc_storeid</string>
+  </SerializedBindings>
+  <MaxColumns>0</MaxColumns>
+  <Fetch version="1.0">
+    <entity name="kc_competitorinstore"/>
+  </Fetch>
+  <SerializedTemplates>
+    <RowTemplate>
+      <DesignWidth>320</DesignWidth>
+      <DesignHeight>48</DesignHeight>
+      <Name>Default</Name>
+      <Width>160</Width>
+      <Height>48</Height>
+      <Buttons>none</Buttons>
+      <SerializedChildren>
+        <CellTemplate SchemaName="kc_competitorid">
+          <StyleName>primary_center</StyleName>
+          <Bounds>10,12,140,24</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>15</Anchor>
+        </CellTemplate>
+      </SerializedChildren>
+    </RowTemplate>
+  </SerializedTemplates>
+  <CustomProperties/>
+</EntityList>

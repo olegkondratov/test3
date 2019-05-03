@@ -1,0 +1,79 @@
+﻿<EntityList>
+  <Attributes>
+    <EntityName>contact</EntityName>
+    <VisualStudioProjectId>c0f71827-e4f6-464e-a71d-c36687d5738e</VisualStudioProjectId>
+    <ClassBinding/>
+  </Attributes>
+  <Name>AssocContacts</Name>
+  <Kind>AssociatedList</Kind>
+  <AutoWideWidth>0</AutoWideWidth>
+  <OrderBy>fullname</OrderBy>
+  <SortAllowedFields>!</SortAllowedFields>
+  <FilterAllowedFields>!</FilterAllowedFields>
+  <SharedVariables>&lt;SharedVariables&gt;&lt;Variables&gt;&lt;/Variables&gt;&lt;/SharedVariables&gt;</SharedVariables>
+  <SerializedBindings>
+    <string>address1_city</string>
+    <string>address1_longitude</string>
+    <string>address1_stateorprovince</string>
+    <string>address1_postalcode</string>
+    <string>address1_country</string>
+    <string>address1_line1</string>
+    <string>address1_line2</string>
+    <string>address1_line3</string>
+    <string>address1_latitude</string>
+    <string>modifiedon</string>
+    <string>createdon</string>
+    <string>jobtitle</string>
+    <string>firstname</string>
+    <string>parentcustomerid</string>
+    <string>contactid</string>
+    <string>mobilephone</string>
+    <string>ownerid</string>
+    <string>fullname</string>
+    <string>statuscode</string>
+    <string>telephone1</string>
+    <string>statecode</string>
+    <string>fax</string>
+    <string>lastname</string>
+    <string>emailaddress1</string>
+  </SerializedBindings>
+  <HasGpsFields>true</HasGpsFields>
+  <MaxColumns>0</MaxColumns>
+  <Search>
+    <attribute schema="fullname" method="Contains"/>
+    <attribute schema="yomilastname" method="Contains"/>
+    <attribute schema="firstname" method="Contains"/>
+  </Search>
+  <SerializedTemplates>
+    <RowTemplate>
+      <DesignWidth>320</DesignWidth>
+      <DesignHeight>48</DesignHeight>
+      <Name>Default</Name>
+      <Width>96</Width>
+      <Height>112</Height>
+      <Buttons>none</Buttons>
+      <SerializedChildren>
+        <CellTemplate SchemaName="firstname">
+          <StyleName>black_center</StyleName>
+          <Bounds>0,80,96,16</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="img">
+          <IsConstant>true</IsConstant>
+          <StyleName>ListNoteImage</StyleName>
+          <Bounds>1,1,94,79</Bounds>
+          <CellKind>1</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="lastname">
+          <StyleName>black_center</StyleName>
+          <Bounds>0,96,96,16</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+      </SerializedChildren>
+    </RowTemplate>
+  </SerializedTemplates>
+  <CustomProperties/>
+</EntityList>

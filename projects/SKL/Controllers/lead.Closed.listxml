@@ -1,0 +1,111 @@
+﻿<EntityList>
+  <Attributes>
+    <EntityName>lead</EntityName>
+    <VisualStudioProjectId>c0f71827-e4f6-464e-a71d-c36687d5738e</VisualStudioProjectId>
+    <ClassBinding/>
+  </Attributes>
+  <Name>Closed</Name>
+  <Kind>List</Kind>
+  <AutoWideWidth>0</AutoWideWidth>
+  <OrderBy>!createdon</OrderBy>
+  <SortAllowedFields>!</SortAllowedFields>
+  <FilterAllowedFields>!</FilterAllowedFields>
+  <SharedVariables>&lt;SharedVariables&gt;&lt;Variables&gt;&lt;/Variables&gt;&lt;/SharedVariables&gt;</SharedVariables>
+  <SerializedBindings>
+    <string>kc_addressoffice</string>
+    <string>address1_longitude</string>
+    <string>address1_latitude</string>
+    <string>address1_city</string>
+    <string>createdon</string>
+    <string>firstname</string>
+    <string>leadid</string>
+    <string>leadsourcecode</string>
+    <string>customerid</string>
+    <string>mobilephone</string>
+    <string>companyname</string>
+    <string>address1_stateorprovince</string>
+    <string>ownerid</string>
+    <string>leadqualitycode</string>
+    <string>fullname</string>
+    <string>address1_postalcode</string>
+    <string>estimatedclosedate</string>
+    <string>estimatedamount</string>
+    <string>statuscode</string>
+    <string>telephone1</string>
+    <string>subject</string>
+    <string>kc_dadataregion</string>
+    <string>websiteurl</string>
+    <string>statecode</string>
+    <string>address1_country</string>
+    <string>parentaccountid</string>
+    <string>address1_line1</string>
+    <string>address1_line2</string>
+    <string>address1_line3</string>
+    <string>lastname</string>
+    <string>emailaddress1</string>
+    <string>modifiedon</string>
+  </SerializedBindings>
+  <HasGpsFields>true</HasGpsFields>
+  <MaxColumns>0</MaxColumns>
+  <TemplateSelectorRule>&lt;?xml version="1.0" ?&gt;&lt;Workflow e="true" isvalid="true" syntaxVersion="11" version="0"&gt;&lt;branch e="true" info="" &gt;&lt;if e="true"&gt;&lt;conditions e="true" op="And"&gt;&lt;condition e="false"&gt;&lt;var&gt;Entity.statecode&lt;/var&gt;&lt;op&gt;Equal&lt;/op&gt;&lt;arg&gt;State:0&lt;/arg&gt;&lt;/condition&gt;&lt;/conditions&gt;&lt;action&gt;&lt;function e="false"&gt;&lt;var&gt;Row.StatusTag.Style&lt;/var&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;arg&gt;String:GreenTag&lt;/arg&gt;&lt;/function&gt;&lt;/action&gt;&lt;/if&gt;&lt;if e="true"&gt;&lt;conditions e="true" op="And"&gt;&lt;/conditions&gt;&lt;action&gt;&lt;function e="false"&gt;&lt;var&gt;Row.StatusTag.Style&lt;/var&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;arg&gt;String:RedTag&lt;/arg&gt;&lt;/function&gt;&lt;function e="false"&gt;&lt;var&gt;Row.statecode.Style&lt;/var&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;arg&gt;String:Secondary Right Red&lt;/arg&gt;&lt;/function&gt;&lt;/action&gt;&lt;/if&gt;&lt;/branch&gt;&lt;/Workflow&gt;</TemplateSelectorRule>
+  <Fetch version="1.0">
+    <entity name="lead">
+      <filter type="and">
+        <condition attribute="statecode" operator="in">
+          <value>2</value>
+          <value>1</value>
+        </condition>
+      </filter>
+    </entity>
+  </Fetch>
+  <Search>
+    <attribute schema="companyname" method="Contains"/>
+    <attribute schema="fullname" method="Contains"/>
+    <attribute schema="kc_addressoffice" method="Contains"/>
+  </Search>
+  <SerializedTemplates>
+    <RowTemplate>
+      <DesignWidth>320</DesignWidth>
+      <DesignHeight>48</DesignHeight>
+      <Name>Default</Name>
+      <Width>320</Width>
+      <Height>68</Height>
+      <Buttons>none</Buttons>
+      <SerializedChildren>
+        <CellTemplate SchemaName="companyname">
+          <StyleName>primary</StyleName>
+          <Bounds>68,2,242,24</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>13</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="Now.lead.png">
+          <IsConstant>true</IsConstant>
+          <StyleName>LeadImage</StyleName>
+          <Bounds>2,2,64,64</Bounds>
+          <CellKind>1</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="fullname">
+          <StyleName>Secondary</StyleName>
+          <Bounds>68,26,242,20</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>13</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="StatusTag">
+          <IsConstant>true</IsConstant>
+          <StyleName>ImageCellStyle</StyleName>
+          <Bounds>313,2,5,64</Bounds>
+          <CellKind>1</CellKind>
+          <Anchor>11</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="statecode">
+          <StyleName>Secondary Right Green</StyleName>
+          <Bounds>68,46,242,20</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>9</Anchor>
+        </CellTemplate>
+      </SerializedChildren>
+    </RowTemplate>
+  </SerializedTemplates>
+  <CustomProperties/>
+</EntityList>

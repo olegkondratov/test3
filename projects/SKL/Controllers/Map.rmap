@@ -1,0 +1,23 @@
+﻿<GlobalMap>
+  <Items>
+    <GlobalMapComponent>
+      <EntityName>appointment</EntityName>
+      <ViewName>Appointments</ViewName>
+      <IsInitial>true</IsInitial>
+    </GlobalMapComponent>
+    <GlobalMapComponent>
+      <EntityName>appointment</EntityName>
+      <ViewName>My Appointments</ViewName>
+    </GlobalMapComponent>
+    <GlobalMapComponent>
+      <EntityName>lead</EntityName>
+      <ViewName>Now</ViewName>
+      <IsInitial>true</IsInitial>
+    </GlobalMapComponent>
+    <GlobalMapComponent>
+      <EntityName>kc_store</EntityName>
+      <ViewName>Default</ViewName>
+      <IsInitial>true</IsInitial>
+    </GlobalMapComponent>
+  </Items>
+</GlobalMap>
